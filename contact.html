@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Kontakta</title>
+	<!--CSS-->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="css/main.css" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" />
+	<link href="css/responsive.css" media="screen and (max-width:768px)" rel="stylesheet" type="text/css" /><!--Scripts--><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><script src="js/scripts.js"></script><script src="js/forms.js"></script><script type='text/javascript' src='https://albacross.com/wp-content/themes/albacross-v2/scripts/main.js?ver=4.7.5'></script><!--Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700" rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:400,500" rel="stylesheet" />
+	<style type="text/css">@media screen and (min-width: 1620px) {
+            #customers {
+                background: #F7F9FF;
+                height: 170px
+            }
+        }
+        @media screen and (max-width: 1285px) {
+            #first-banner {
+                background-size: cover
+            }
+            #about h2 {
+                margin-top: 60px!important
+            }
+        }
+	</style>
+</head>
+<body id="kontakta">
+<header class="navbar">
+<div class="navbar-wrapper" id="access" role="navigation">
+<div class="container">
+<div class="navbar__logo"><a href="index.html"><img alt="logo" src="img/logo.png" width="100%" /> </a></div>
+
+<div class="navbar__menu navbar__menu--responsive">
+<div class="navbar__menu__primary-wrapper">
+<div class="navbar__menu__primary">
+<ul class="menu" id="menu-main">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="index.html">Product</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="index.html">Hur fungerar det?</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">FAQ</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom active"><a href="contact.html">Kontakta</a></li>
+</ul>
+</div>
+</div>
+
+<div class="navbar__menu__app-actions--responsive"><a class="responsive-login-link" href="#login">Logga in</a></div>
+
+<div class="navbar__menu__app-actions"><!--<a href='https://app.albacross.com/register' class='btn-round btn-pink get-started-link'>Sign up</a>--><a class="login-link" href="#login">Logga in</a></div>
+</div>
+
+<div class="navbar__menu-toggle navbar__menu-toggle--menu" id="responsive-menu-toggle">
+<div class="navbar__menu-toggle__menu"><svg id="menu-circle" version="1.1" viewbox="0 0 92 92" xmlns="http://www.w3.org/2000/svg"> <circle class="cls-1" cx="46" cy="46" r="45"></circle> <line class="cls-1" x1="64.5" x2="26.5" y1="47.44" y2="47.44"></line> <line class="cls-1" x1="64.5" x2="26.5" y1="35.44" y2="35.44"></line> <line class="cls-1" x1="64.5" x2="26.5" y1="59.44" y2="59.44"></line> </svg></div>
+
+<div class="navbar__menu-toggle__close"><svg id="close-circle" version="1.1" viewbox="0 0 92 92" xmlns="http://www.w3.org/2000/svg"> <circle class="cls-1" cx="46" cy="46" r="45"></circle> <line class="cls-1" x1="59.34" x2="32.47" y1="59.75" y2="32.88"></line> <line class="cls-1" x1="59.34" x2="32.47" y1="32.88" y2="59.75"></line> </svg></div>
+</div>
+</div>
+</div>
+</header>
+<!--Header--><!--Content-->
+
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-2"></div>
+
+<div class="col-md-8">
+<div id="hur-kan">
+<h2>Hur kan vi hj&auml;lpa dig?</h2>
+
+<p>&Auml;r inte din fr&aring;ga n&auml;mnd i v&aring;r <a>FAQ</a>? &Aring;h, okej. Om du kunde fr&aring;ga din<br />
+fr&aring;ga nedan kommer vi att f&ouml;lja upp inom kort. Tack!</p>
+
+<div class="contact-up-card"><!--<form name="contact-form" method="post" action="form.php" autocomplete="on">-->
+<div class="row">
+<div class="col-md-6 left-contact-card">
+<div class="row">
+<div class="col-md-6">Name<br />
+<input data-validation="length alphanumeric" data-validation-length="min4" id="name" name="first-name" onblur="this.placeholder = 'Mark'" onfocus="this.placeholder = ''" placeholder="Mark" required="" type="text" /></div>
+
+<div class="col-md-6">Last Name<br />
+<input id="last-name" name="last-name" onblur="this.placeholder = 'Zuckerberg'" onfocus="this.placeholder = ''" placeholder="Zuckerberg" required="" type="text" /></div>
+
+<div class="col-md-12">Company email<br />
+<input id="email" name="email" onblur="this.placeholder = 'Mark@kandio.se'" onfocus="this.placeholder = ''" placeholder="Mark@kandio.se" required="" type="email" /></div>
+
+<div class="col-md-12">Company name<br />
+<input id="company" name="company" onblur="this.placeholder = 'kandio.se'" onfocus="this.placeholder = ''" placeholder="kandio.se" required="" type="text" /></div>
+
+<div class="col-md-12">Phone number<br />
+<input id="phone" name="phone" onblur="this.placeholder = '+46 (0) 111 111 11'" onfocus="this.placeholder = ''" placeholder="+46 (0) 111 111 11" required="" type="tel" /></div>
+</div>
+</div>
+
+<div class="col-md-6 right-contact-card">
+<div class="col-md-12">Your message<br />
+<input id="message" name="message" onblur="this.placeholder = 'Hi, I have...'" onfocus="this.placeholder = ''" placeholder="Hi, I have..." required="" type="text" />
+<div class="right-skicka"><button class="login-link" id="contact-form-submit" name="send" type="submit" value="send">Skicka</button></div>
+</div>
+</div>
+</div>
+<!--</form>--></div>
+
+<div class="credentials">
+<div class="row">
+<div class="col-md-3 mail-cred">hej@kandio.se</div>
+
+<div class="col-md-6">Kungsgatan 26, 111 35 Stockholm</div>
+
+<div class="col-md-3 phone-cred">08 525 06 055</div>
+</div>
+</div>
+</div>
+
+<div id="hur-hittar">
+<h2>Hur hittar vi oss</h2>
+
+<p>Om du har problem med att hitta oss, &auml;r vi h&auml;r f&ouml;r att hj&auml;lpa. <br />
+F&ouml;lj stegen noga och vi v&auml;lkomnar dig med &ouml;ppna armar!</p>
+<img id="map-picture" src="img/map.png" width="100%" /></div>
+</div>
+</div>
+</div>
+</div>
+<!--Content--><!--Footer-->
+
+<footer class="footer">
+<div class="container">
+<div class="row main-footer">
+<div class="col-md-3 left-footer-side"><img src="img/footer-logo.png" />
+<p>Kandio hj&auml;lper f&ouml;retag och rekryteringsbyr&aring;er att rekrytera smart, enkelt och billigt.</p>
+</div>
+
+<div class="col-md-1"></div>
+
+<div class="col-md-2 footer-list">Sitemap
+<ul>
+	<li><a href="">Information</a></li>
+	<li><a href="">FAQ</a></li>
+	<li><a href="">Contact</a></li>
+	<li><a href="">Hem</a></li>
+</ul>
+</div>
+
+<div class="col-md-2 footer-list">Kontakt
+<table>
+	<tbody>
+		<tr>
+			<th></th>
+			<th>Kungsgatan 26</th>
+		</tr>
+		<tr>
+			<th></th>
+			<th>11135 Stockholm</th>
+		</tr>
+		<tr>
+			<th></th>
+			<th>Sweden</th>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div class="col-md-1"></div>
+
+<div class="col-md-2 footer-list">F&ouml;retag
+<ul>
+	<li>Hello@kandio.se</li>
+	<li>+46 (0) 111 111 11</li>
+</ul>
+</div>
+</div>
+
+<div class="separator"></div>
+
+<div class="row last-footer">
+<div class="col-md-4 left-last-side">
+<ul>
+	<li><a href="">Privacy Policy</a></li>
+	<li><a href="">Terms &amp; Conditions</a></li>
+</ul>
+</div>
+
+<div class="col-md-4 center-last">Copyright &copy; 2017 Kandio.se All Rights Reserved.</div>
+
+<div class="col-md-4 right-last-side">
+<ul>
+	<li><a href="https://www.facebook.com/Kandio-290259624805484/"><img src="img/fb-f.png" /></a></li>
+	<li><a href=""><img src="img/tw-f.png" /></a></li>
+	<li><a href=""><img src="img/ln-f.png" /></a></li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+<!--Footer--></body>
+</html>
