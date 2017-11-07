@@ -55,4 +55,8 @@ $(document).ready(function () {
         $("#select-input").slideToggle();
     });
 
+    $(".navbar__menu-toggle__menu").click(function () {
+        $(".navbar__menu--responsive").slideToggle()
+    });
+
 });
