@@ -125,16 +125,16 @@
                     </div>
                     <div class="menu">
                         <ul>
-                            <li><a href="#hiw">How it works</a></li>
+                            <li><a href="#hiw">Hur fungerar det?</a></li>
                             <li><a href="#">FAQ</a></li>
                             <li><a href="#">Karriär</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Kontakta oss</a></li>
                         </ul>
                         <a href="#" class="btn btn-demo">
                             <svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <use xlink:href="#play_btn" x="0" y="0" />
                             </svg>
-                            <span>Book a Demo</span>
+                            <span>Visa demo</span>
                         </a>
                     </div>
                     <div class="button">
@@ -155,8 +155,8 @@
                 <div class="content container-fluid">
                     <div class="row">
                         <div class="col-sm-5 text">
-                            <h1>Find talents</h1>
-                            <p>where you never though to find them</p>
+                            <h1>8 av 10 kandidater söker inte aktivt efter jobb</h1>
+                            <p>Nå ideala kandidater med automatiserade jobbannonser på sociala medier</p>
                             <a href="#" class="btn btn-demo">
                                 <svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <g id="play_btn" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -196,14 +196,14 @@
                 <div class="content container-fluid">
                     <div class="row">
                         <div class="text col-sm-5">
-                            <h2>Nå passiva kandidater</h2>
+                            <h2>Nå passiv talang</h2>
                             <div class="line"></div>
-                            <p>Gå utanför de traditionella kanalerna och hitta <br>kandidater på medier som de faktiskt använder, <br>bade passiva och aktiva.</p>
+                            <p>Gå utanför de traditionella kanalerna och hitta kandidater på medier som de faktiskt använder, som facebook, instagram och google.</p>
                             <a href="#" class="btn btn-demo">
                                 <svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <use xlink:href="#play_btn" x="0" y="0" />
                                 </svg>
-                                <span>Book a Demo</span></a>
+                                <span>Visa Demo</span></a>
                         </div>
                         <div class="col-sm-7 img-wrap">
                             <img src="img/passive-candidate@2x.png">
@@ -221,12 +221,12 @@
                         <div class="text col-sm-5">
                             <h2>Målstyrning</h2>
                             <div class="line"></div>
-                            <p>Rikta dina annonser baserat på bl.a. demografi, <br>intressen och surfvanor.</p>
+                            <p>Genom att använda data från historiska kampanjer kan vi visa rätt annons, på rätt medie, för rätt person, vid rätt tid.</p>
                             <a href="#" class="btn btn-demo">
                                 <svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <use xlink:href="#play_btn" x="0" y="0" />
                                 </svg>
-                                <span>Book a Demo</span></a>
+                                <span>Visa Demo</span></a>
                         </div>
                         <div class="col-sm-7 img-wrap">
                             <img src="img/targeted-mails@2x.png">
@@ -245,12 +245,12 @@
                         <div class="text col-sm-5">
                             <h2>Automatisk<br> optimering</h2>
                             <div class="line"></div>
-                            <p>Med hjälp av förutspående analys och<br> programmatisk budgivning vet vi när, var och hur vi<br> ska annonsera för bäst resultat och lägst kostnad.</p>
+                            <p>Vi använder programmatisk budgivning och artificiell intelligens för att annonsera till lägst kostnad per kandidat.</p>
                             <a href="#" class="btn btn-demo">
                                 <svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <use xlink:href="#play_btn" x="0" y="0" />
                                 </svg>
-                                <span>Book a Demo</span></a>
+                                <span>Visa Demo</span></a>
                         </div>
                         <div class="col-sm-7 img-wrap">
                             <div class="shadow">
@@ -287,7 +287,7 @@
                 <div class="content container-fluid">
                     <div class="row">
                         <div class="col-12">
-                            <h2>How it works?</h2>
+                            <h2>Hur fungerar det?</h2>
                         </div>
                         <div class="col-sm-12 col-xl-4">
                             <div class="inside">
@@ -305,7 +305,7 @@
                                         </div>
                                         <div  class="line"></div>
                                         <div class="text">
-                                            Välj bland kriterier som kön, ålder, intressen, utbildning och erfarenhet
+                                            Välj jobbkategori, erfarenhet, & färdigheter.
                                         </div>
                                     </div>
                                 </div>
@@ -323,11 +323,11 @@
                                     <div class="col-12 col-sm-8 col-md-8 col-xl-12">
                                         <div class="number">Step #2</div>
                                         <div class="title">
-                                            Bekräfta budget
+                                            Bekräfta annons
                                         </div>
                                         <div  class="line"></div>
                                         <div class="text">
-                                            Välj bland kriterier som kön, ålder, intressen, utbildning och erfarenhet
+                                            Välj den bild och text vi rekommenderar, eller ändra
                                         </div>
                                     </div>
                                 </div>
@@ -349,7 +349,7 @@
                                         </div>
                                         <div  class="line"></div>
                                         <div class="text">
-                                            Välj bland kriterier som kön, ålder, intressen, utbildning och erfarenhet
+                                            Se kandidater dyka upp i real-tid i vår kontrollpanel. 
                                         </div>
                                     </div>
                                 </div>
@@ -360,7 +360,7 @@
                                 <svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <use xlink:href="#play_btn" x="0" y="0" />
                                 </svg>
-                                <span>Book a Demo</span></a>
+                                <span>Visa Demo</span></a>
                         </div>
                     </div>
                 </div>
@@ -373,7 +373,7 @@
                 <div class="content container-fluid">
                     <div class="row">
                         <div class="col-12">
-                            <h2>Amazing ads</h2>
+                            <h2>Annonser på ett klick</h2>
                         </div>
                         <div class="col-sm-4">
                             <div class="tab-menu">
@@ -415,22 +415,22 @@
                         </div>
                         <div class="text col-md-7 col-sm-6 col-lg-6">
                             <form method="post">
-                                <h2>Order Demo</h2>
-                                <p>All your questions can be solved in a minute. Write us and see all Kandio features.</p>
+                                <h2>Kontakta oss</h2>
+                                <p>Har du frågor? Vill du boka en personlig demo? Vi svarar inom 24 timmar.</p>
                                 <div class="line">
-                                    <input type="text" name="name" value="" placeholder="Type your name">
+                                    <input type="text" name="name" value="" placeholder="Namn">
                                 </div>
                                 <div class="line">
-                                    <input type="tel" name="phone" value="" placeholder="Phone number">
+                                    <input type="tel" name="phone" value="" placeholder="Telefon">
                                 </div>
                                 <div class="line">
                                     <input type="text" name="email" value="" placeholder="E-mail">
                                 </div>
                                 <div class="line">
-                                    <textarea name="text" value="" placeholder="Your message (if any)"></textarea>
+                                    <textarea name="text" value="" placeholder="Ditt meddelande (frivilligt)"></textarea>
                                 </div>
                                 <div class="line">
-                                    <button type="submit" class="btn">Submit</button>
+                                    <button type="submit" class="btn">Skicka</button>
                                 </div>
                             </form>
                         </div>
@@ -449,25 +449,25 @@
                             </svg>
                         </a>
                         <p class="small">
-                            © KANDIO - 2017. All rights reserved.
+                            
                         </p>
                         <p class="small">
-                            <a href="#">Privacy Policy</a>
                             <span>|</span>
-                            <a href="#">Terms of use</a>
                         </p>
                     </div>
                     <div class="col-md-3 col-sm-6 col-12">
-                        <h3>CONTACT</h3>
-                        <p>Kungsgatan 26,<br> 11135 Stockholm,<br> Sweden</p>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-12">
-                        <h3>COMPANY</h3>
-                        <p><a href="mailto:info@kand.io">info@kand.io</a></p>
-                        <p><a href="tel:+46 (0) 111 111 11">+46 (0) 111 111 11</a></p>
+                        <h3>KANDIO AB</h3>
+                        <p>Kungsgatan 26, Stockholm</p>
+                        <p><a href="mailto:hej@kandio.se">hej@kandio.se</a></p>
+                        <p>073-532 81 52</p>
                     </div>
                     <div class="col-md-3 col-sm-6 col-12">
                         <h3>INFORMATION</h3>
+                        <p><a href="#">Användarvillkor</a></p>
+                        <p><a href="#">Personuppgiftspolicy</a></p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <h3>SITEMAP</h3>
                         <ul>
                             <li>
                                 <a href="#">Hur fungerar det?</a>
@@ -476,7 +476,10 @@
                                 <a href="#">FAQ</a>
                             </li>
                             <li>
-                                <a href="#">Kariär</a>
+                                <a href="#">Karriär</a>
+                            </li>
+                            <li>
+                                <a href="#">Kontakta oss</a>
                             </li>
                         </ul>
                     </div>
