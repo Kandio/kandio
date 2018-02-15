@@ -168,7 +168,7 @@
                                 <span>Visa Demo</span></a>
                             <div class="scroll-more">
                                 <a href="#">
-                                    Scroll to learn more
+                                    Hur?
                                     <svg width="13px" height="15px" viewBox="0 0 13 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                         <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                             <g id="Scroll-down" fill="#FFFFFF">
