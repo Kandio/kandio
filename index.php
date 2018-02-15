@@ -82,7 +82,7 @@
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/qc-yf626wVY?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                     <p>
-                        And you know what? You can start using Kandio right now!
+                        And you know what? You can start using KANDIO right now!
                         Click the button below and test all features!
                     </p>
                     <a href="#" class="btn btn-go">Start Using</a>
