@@ -148,7 +148,7 @@
                                         </g>
                                     </svg>
                                 </span>
-                            <span class="txt">Login</span>
+                            <span class="txt">Logga in</span>
                         </a>
                     </div>
                 </div>
@@ -165,7 +165,7 @@
                                         </g>
                                     </g>
                                 </svg>
-                                <span>Book a Demo</span></a>
+                                <span>Visa Demo</span></a>
                             <div class="scroll-more">
                                 <a href="#">
                                     Scroll to learn more
@@ -198,7 +198,7 @@
                         <div class="text col-sm-5">
                             <h2>Nå passiv talang</h2>
                             <div class="line"></div>
-                            <p>Gå utanför de traditionella kanalerna och hitta kandidater på medier som de faktiskt använder, som facebook, instagram och google.</p>
+                            <p>Gå utanför de traditionella kanalerna och hitta kandidater på medier som de faktiskt använder, som Facebook, Instagram och Google</p>
                             <a href="#" class="btn btn-demo">
                                 <svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <use xlink:href="#play_btn" x="0" y="0" />
@@ -221,7 +221,7 @@
                         <div class="text col-sm-5">
                             <h2>Målstyrning</h2>
                             <div class="line"></div>
-                            <p>Genom att använda data från historiska kampanjer kan vi visa rätt annons, på rätt medie, för rätt person, vid rätt tid.</p>
+                            <p>Genom att använda data från historiska kampanjer kan vi visa rätt annons, på rätt medie, för rätt person, vid rätt tid</p>
                             <a href="#" class="btn btn-demo">
                                 <svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <use xlink:href="#play_btn" x="0" y="0" />
@@ -245,7 +245,7 @@
                         <div class="text col-sm-5">
                             <h2>Automatisk<br> optimering</h2>
                             <div class="line"></div>
-                            <p>Vi använder programmatisk budgivning och artificiell intelligens för att annonsera till lägst kostnad per kandidat.</p>
+                            <p>Vi använder programmatisk budgivning och artificiell intelligens för att annonsera till lägst kostnad per kandidat</p>
                             <a href="#" class="btn btn-demo">
                                 <svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <use xlink:href="#play_btn" x="0" y="0" />
@@ -305,7 +305,7 @@
                                         </div>
                                         <div  class="line"></div>
                                         <div class="text">
-                                            Välj jobbkategori, erfarenhet, & färdigheter.
+                                            Välj jobbtitel, bransch, erfarenhet och färdigheter
                                         </div>
                                     </div>
                                 </div>
@@ -349,7 +349,7 @@
                                         </div>
                                         <div  class="line"></div>
                                         <div class="text">
-                                            Se kandidater dyka upp i real-tid i vår kontrollpanel. 
+                                            Se kandidaterna dyka upp i real-tid i kontrollpanelen
                                         </div>
                                     </div>
                                 </div>
@@ -380,7 +380,6 @@
                                 <ul>
                                     <li class="active"><a href="#">Facebook</a></li>
                                     <li><a href="#">Instagram</a></li>
-                                    <li><a href="#">Twitter</a></li>
                                     <li><a href="#">Google</a></li>
                                 </ul>
                             </div>
@@ -389,7 +388,6 @@
                             <div class="tabs">
                                 <div class="tab active"><img src="img/facebook_ad_example@2x.png"></div>
                                 <div class="tab"><img src="img/instagram_example_ad@2x.png"></div>
-                                <div class="tab"><img src="img/twitter_example_ad@2x.png"></div>
                                 <div class="tab"><img src="img/google_example_ad@2x.png"></div>
                             </div>
                         </div>
@@ -398,7 +396,7 @@
                                 <svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <use xlink:href="#play_btn" x="0" y="0" />
                                 </svg>
-                                <span>Book a Demo</span></a>
+                                <span>Visa Demo</span></a>
                         </div>
                     </div>
                 </div>
@@ -449,10 +447,8 @@
                             </svg>
                         </a>
                         <p class="small">
-                            
                         </p>
                         <p class="small">
-                            <span>|</span>
                         </p>
                     </div>
                     <div class="col-md-3 col-sm-6 col-12">
@@ -467,21 +463,11 @@
                         <p><a href="#">Personuppgiftspolicy</a></p>
                     </div>
                     <div class="col-md-3 col-sm-6 col-12">
-                        <h3>SITEMAP</h3>
-                        <ul>
-                            <li>
-                                <a href="#">Hur fungerar det?</a>
-                            </li>
-                            <li>
-                                <a href="#">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="#">Karriär</a>
-                            </li>
-                            <li>
-                                <a href="#">Kontakta oss</a>
-                            </li>
-                        </ul>
+                        <h3>SIDKARTA</h3>
+                                <p><a href="#">Hur fungerar det?</a></p>
+                                <p><a href="#">FAQ</a></p>
+                                <p><a href="#">Karriär</a></p>
+                                <p><a href="#">Kontakta oss</a></p>
                     </div>
                     <div class="col-md-3 col-sm-6 col-12" style="position: relative;">
                         <h3><span class="social-parent"> SOCIAL<span class="notify">
