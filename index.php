@@ -155,8 +155,8 @@
                 <div class="content container-fluid">
                     <div class="row">
                         <div class="col-sm-5 text">
-                            <h1>8 av 10 kandidater söker inte aktivt efter jobb</h1>
-                            <p>Nå ideala kandidater med automatiserade jobbannonser på sociala medier</p>
+                            <h1>8 av 10 kandidater söker inte aktivt</h1>
+                            <p>Hitta rätt person med automatiserade jobbannonser på sociala medier</p>
                             <a href="#" class="btn btn-demo">
                                 <svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <g id="play_btn" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -305,7 +305,7 @@
                                         </div>
                                         <div  class="line"></div>
                                         <div class="text">
-                                            Välj jobbtitel, bransch, erfarenhet och färdigheter
+                                            Välj jobbtitel, bransch, erfarenhet och eventuella färdigheter
                                         </div>
                                     </div>
                                 </div>
