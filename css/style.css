@@ -1244,7 +1244,7 @@ footer .sc-top {
   margin: auto 0;
   padding-left: 25px;
 }
-#order_from .content .video iframe {
+#order_from .content .video img {
   width: 100%;
   height: 342px;
   border-radius: 6px 0 0 6px;
@@ -1670,6 +1670,53 @@ a:hover {
   }
   #hiw .content .col-sm-4 {
     margin: auto 0!important;
+  }
+}
+@media (max-height: 800px) {
+  #order_from .overlay {
+    padding: 50px 0 50px 50px;
+  }
+  #order_from .content p {
+    font-size: 18px;
+  }
+  #order_from .content form .line {
+    margin-bottom: 20px;
+  }
+  #order_from .content h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  #order_from .content input {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  #order .content p {
+    margin-bottom: 30px;
+  }
+  #order .content h2 {
+    margin-bottom: 20px;
+  }
+  #order .content form {
+    padding: 40px;
+  }
+  #order .content .line {
+    margin-bottom: 20px;
+  }
+}
+@media (max-height: 920px) {
+  #order_success .content h2 {
+    margin-bottom: 20px;
+  }
+  #order_success .content p {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  #order_success .content .btn {
+    margin-top: 30px;
+  }
+  #order_success .content .video iframe {
+    width: 570px;
+    height: 280px;
   }
 }
 @media (max-width: 1200px) and (max-height: 1100px) {
