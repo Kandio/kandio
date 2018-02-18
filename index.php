@@ -125,7 +125,7 @@
                     </div>
                     <div class="menu">
                         <ul>
-                            <li><a href="#hiw">How it works</a></li>
+                            <li><a href="#hiw">Hur det fungerar</a></li>
                             <li><a href="#">FAQ</a></li>
                             <li><a href="#">Karriär</a></li>
                             <li><a href="#">Contact</a></li>
@@ -148,7 +148,7 @@
                                         </g>
                                     </svg>
                                 </span>
-                            <span class="txt">Login</span>
+                            <span class="txt">Logga in</span>
                         </a>
                     </div>
                 </div>
@@ -458,7 +458,7 @@
                         </p>
                     </div>
                     <div class="col-md-3 col-sm-6 col-12">
-                        <h3>CONTACT</h3>
+                        <h3>Kontakt</h3>
                         <p>Kungsgatan 26,<br> 11135 Stockholm,<br> Sweden</p>
                     </div>
                     <div class="col-md-3 col-sm-6 col-12">
