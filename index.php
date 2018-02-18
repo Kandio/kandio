@@ -43,7 +43,7 @@
                             </svg>
                         </div>
                         <h2>Order Demo</h2>
-                        <p>All your questions can be solved in a minute. Write us and see all Kandio features.</p>
+                        <p>Fill in the form to unlock the video</p>
                         <div class="line">
                             <input type="text" name="name" value="" placeholder="Type your name">
                         </div>
