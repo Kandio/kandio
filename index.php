@@ -134,7 +134,7 @@
                             <svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <use xlink:href="#play_btn" x="0" y="0" />
                             </svg>
-                            <span>Book a Demo</span>
+                            <span>Watch Demo</span>
                         </a>
                     </div>
                     <div class="button">
@@ -165,7 +165,7 @@
                                         </g>
                                     </g>
                                 </svg>
-                                <span>Book a Demo</span></a>
+                                <span>Watch demo</span></a>
                             <div class="scroll-more">
                                 <a href="#">
                                     Scroll to learn more
@@ -203,7 +203,7 @@
                                 <svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <use xlink:href="#play_btn" x="0" y="0" />
                                 </svg>
-                                <span>Book a Demo</span></a>
+                                <span>Watch demo</span></a>
                         </div>
                         <div class="col-sm-7 img-wrap">
                             <img src="img/passive-candidate@2x.png">
@@ -226,7 +226,7 @@
                                 <svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <use xlink:href="#play_btn" x="0" y="0" />
                                 </svg>
-                                <span>Book a Demo</span></a>
+                                <span>Watch demo</span></a>
                         </div>
                         <div class="col-sm-7 img-wrap">
                             <img src="img/targeted-mails@2x.png">
@@ -250,7 +250,7 @@
                                 <svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <use xlink:href="#play_btn" x="0" y="0" />
                                 </svg>
-                                <span>Book a Demo</span></a>
+                                <span>Watch demo</span></a>
                         </div>
                         <div class="col-sm-7 img-wrap">
                             <div class="shadow">
@@ -360,7 +360,7 @@
                                 <svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <use xlink:href="#play_btn" x="0" y="0" />
                                 </svg>
-                                <span>Book a Demo</span></a>
+                                <span>Watch demo</span></a>
                         </div>
                     </div>
                 </div>
@@ -398,7 +398,7 @@
                                 <svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <use xlink:href="#play_btn" x="0" y="0" />
                                 </svg>
-                                <span>Book a Demo</span></a>
+                                <span>Watch demo</span></a>
                         </div>
                     </div>
                 </div>
