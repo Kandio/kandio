@@ -79,13 +79,13 @@
                         <svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <use xlink:href="#play_btn" x="0" y="0"></use>
                         </svg>
-                        <iframe src="https://player.vimeo.com/video/255914041" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <iframe src="https://player.vimeo.com/video/255914041?title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                     <p>
                         And you know what? You can start using Kandio right now!
                         Click the button below and test all features!
                     </p>
-                    <a href="#" class="btn btn-go">Start Using</a>
+                    <a href="https://app.kandio.se/#!/sign-up" class="btn btn-go">Start Using</a>
                 </div>
             </div>
         </div>
@@ -138,7 +138,7 @@
                         </a>
                     </div>
                     <div class="button">
-                        <a href="http://app.kandio.se/#!/sign-in" target="_blank" class="btn btn-login">
+                        <a href="http://app.kandio.se/#!/sign-in" class="btn btn-login">
                                 <span class="icon">
                                     <svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                         <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
