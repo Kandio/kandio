@@ -155,7 +155,7 @@
                 <div class="content container-fluid">
                     <div class="row">
                         <div class="col-sm-5 text">
-                            <h1>8 av 10 kandidater söker inte aktivt</h1>
+                            <h1>8 av 10 kandidater söker inte aktivt efter nytt jobb</h1>
                             <p>Hitta rätt person med automatiserade jobbannonser på sociala medier</p>
                             <a href="#" class="btn btn-demo">
                                 <svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -414,22 +414,22 @@
                         </div>
                         <div class="text col-md-7 col-sm-6 col-lg-6">
                             <form method="post">
-                                <h2>Visa Demo</h2>
+                                <h2>Kontakta oss</h2>
                                 <p>Har du frågor? Vill du boka en personlig demo? Vi svarar inom 24 timmar.</p>
                                 <div class="line">
-                                    <input type="text" name="name" value="" placeholder="Type your name">
+                                    <input type="text" name="name" value="" placeholder="Namn">
                                 </div>
                                 <div class="line">
-                                    <input type="tel" name="phone" value="" placeholder="Phone number">
+                                    <input type="tel" name="phone" value="" placeholder="Telefonnummer">
                                 </div>
                                 <div class="line">
                                     <input type="text" name="email" value="" placeholder="E-mail">
                                 </div>
                                 <div class="line">
-                                    <textarea name="text" value="" placeholder="Your message (if any)"></textarea>
+                                    <textarea name="text" value="" placeholder="Ditt meddelande (valfritt)"></textarea>
                                 </div>
                                 <div class="line">
-                                    <button type="submit" class="btn">Submit</button>
+                                    <button type="submit" class="btn">Skicka</button>
                                 </div>
                             </form>
                         </div>
