@@ -450,9 +450,6 @@
 <p class="small">
 	                        </p>
 	                        <p class="small">
-                                <a href="/privacy.html">Privacy Policy</a>
-                                <span>|</span>
-                                <a href="/terms.html">Terms of use</a>
 	                        </p>
 	                    </div>
 	                    <div class="col-md-3 col-sm-6 col-12">
@@ -463,8 +460,8 @@
 	                    </div>
 	                    <div class="col-md-3 col-sm-6 col-12">
 	                        <h3>INFORMATION</h3>
-	                        <p><a href="#">Användarvillkor</a></p>
-	                        <p><a href="#">Personuppgiftspolicy</a></p>
+                            <p><a href="/terms.html">Användarvillkor</a></p>
+                            <p><a href="/privacy.html">Personuppgiftspolicy</a></p>
 	                    </div>
 	                    <div class="col-md-3 col-sm-6 col-12">
 	                        <h3>SIDKARTA</h3>
