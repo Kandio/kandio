@@ -452,7 +452,7 @@
                             © KANDIO - 2017. All rights reserved.
                         </p>
                         <p class="small">
-                            <a href="#">Privacy Policy</a>
+                            <a href="/privacy.html">Privacy Policy</a>
                             <span>|</span>
                             <a href="#">Terms of use</a>
                         </p>
@@ -470,10 +470,10 @@
                         <h3>INFORMATION</h3>
                         <ul>
                             <li>
-                                <a href="#">Hur fungerar det?</a>
+                                <a href="#fifth">Hur fungerar det?</a>
                             </li>
                             <li>
-                                <a href="#">FAQ</a>
+                                <a href="http://help.kandio.se/">FAQ</a>
                             </li>
                             <li>
                                 <a href="#">Kariär</a>

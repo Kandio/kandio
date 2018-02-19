@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kandio</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jquery.fullPage.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Source+Sans+Pro:400,600,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/jquery.fullPage.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>-->
+    <style media="screen">
+        #fullpage .section {
+            height: auto;
+        }
+        .main-card p {
+            color: #343a40 !important;
+            font-size: 1rem!important;
+        }
+        ol {list-style: none;}
+    </style>
+</head>
+<body>
+<div id="order_from">
+    <div class="overlay">
+        <div class="close"></div>
+        <div class="content container-fluid">
+            <div class="row">
+                <div class="text col-sm-5">
+                    <form method="post">
+                        <div class="logo">
+                            <svg width="108px" height="18px" viewBox="0 0 108 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.247961957">
+                                    <g id="Kandio-logo-mobile-header" fill-rule="nonzero" fill="#1B2C42">
+                                        <g id="KanDiod">
+                                            <path d="M17.4852911,17.710754 L11.2643489,17.710754 L7.15408352,11.2583436 L5.19893026,13.4165637 L5.19893026,17.7330037 L0,17.7330037 L0,0.177997528 L5.19893026,0.177997528 L5.19893026,7.20889988 L11.06439,0.177997528 L17.0631557,0.177997528 L10.68669,7.29789864 L17.4852911,17.710754 Z M33.4597819,1.71322621 C34.8372763,2.82571075 35.5260235,4.40543881 35.5260235,6.407911 L35.5260235,17.710754 L29.193993,17.710754 L29.193993,15.7972806 C28.6607694,16.5092707 27.9720222,17.0432633 27.1055338,17.421508 C26.2390455,17.7997528 25.2392512,18 24.106151,18 C22.262086,18 20.8401563,17.5105068 19.7959268,16.5092707 C18.7516972,15.5080346 18.2184736,14.1953028 18.2184736,12.526576 C18.2184736,10.8355995 18.7961325,9.54511743 19.9292327,8.6328801 C21.0623329,7.72064277 22.7286567,7.25339926 24.9282041,7.23114957 L29.193993,7.23114957 L29.193993,7.16440049 C29.193993,6.43016069 28.9273812,5.87391842 28.4163752,5.47342398 C27.9053693,5.07292954 27.1499691,4.87268232 26.1723925,4.87268232 C25.4614277,4.87268232 24.6615923,4.98393078 23.7284509,5.184178 C22.7953096,5.40667491 21.8621683,5.71817058 20.9290269,6.11866502 L19.3293561,1.82447466 C22.262086,0.622991347 25.06151,0.022249691 27.7054104,0.022249691 C30.1715696,0.022249691 32.0822876,0.600741656 33.4597819,1.71322621 Z M28.0386752,13.3053152 C28.5718988,12.9938195 28.9495988,12.5488257 29.193993,11.9925834 L29.193993,10.4128554 L26.2612631,10.4128554 C24.9504217,10.4128554 24.3061099,10.946848 24.3061099,12.0370828 C24.3061099,12.5933251 24.4838511,13.0160692 24.8171158,13.3275649 C25.1503806,13.6168109 25.6391689,13.7725587 26.2612631,13.7725587 C26.905575,13.7725587 27.5054516,13.6168109 28.0386752,13.3053152 Z M54.2110677,0.845488257 C55.1664267,1.37948084 55.8996091,2.15822002 56.4106151,3.15945612 C56.9438387,4.16069221 57.1882329,5.31767614 57.1882329,6.6526576 L57.1882329,17.710754 L50.7451142,17.710754 L50.7451142,8.52163164 C50.7451142,7.67614339 50.5229377,6.98640297 50.056367,6.47466007 C49.5897963,5.96291718 48.9899198,5.69592089 48.2567373,5.69592089 C47.3902489,5.71817058 46.6792841,6.02966625 46.1682781,6.6526576 C45.6572722,7.27564895 45.3906604,8.07663782 45.3906604,9.07787392 L45.3906604,17.6885043 L38.9475417,17.6885043 L38.9475417,0.266996292 L45.412878,0.266996292 L45.412878,2.9592089 C46.0349722,2.00247219 46.81259,1.26823239 47.7235137,0.756489493 C48.6344374,0.244746601 49.7231022,0 50.945073,0 C52.1670438,0.022249691 53.2779264,0.311495674 54.2110677,0.845488257 Z M72.1851471,1.09023486 C73.6292944,1.82447466 74.7401769,2.87021014 75.5400123,4.20519159 C76.3398478,5.54017305 76.7175478,7.09765142 76.7175478,8.83312732 C76.7175478,10.5686032 76.3176301,12.1260816 75.495577,13.4833127 C74.6957416,14.8405439 73.5626414,15.8640297 72.0962765,16.5982695 C70.6299115,17.3325093 68.9413701,17.6885043 67.0306521,17.6885043 L60.3209216,17.6885043 L60.3209216,0 L67.2083933,0 C69.0968936,0 70.7632174,0.355995056 72.1851471,1.09023486 Z M70.0522526,11.5253399 C70.6076939,10.8800989 70.8743057,10.0346106 70.8743057,8.96662546 C70.8743057,7.8986403 70.5854762,7.05315204 69.9855997,6.38566131 C69.3857231,5.71817058 68.630323,5.40667491 67.674964,5.40667491 L65.8753343,5.40667491 L65.8753343,12.4820766 L67.8527052,12.4820766 C68.7636289,12.5043263 69.4968114,12.170581 70.0522526,11.5253399 Z M79.6724954,0.289245983 L86.1378317,0.289245983 L86.1378317,17.710754 L79.6724954,17.710754 L79.6724954,0.289245983 Z M103.423164,1.11248455 C104.867311,1.84672435 106.000411,2.89245983 106.800247,4.22744129 C107.600082,5.56242274 108,7.1421508 108,8.94437577 C108,10.7243511 107.600082,12.2818294 106.800247,13.6390606 C106.000411,14.9962917 104.867311,16.0420272 103.423164,16.776267 C101.979017,17.5105068 100.268258,17.8887515 98.335322,17.8887515 C96.4023863,17.8887515 94.6916272,17.5105068 93.2252623,16.776267 C91.7588973,16.0420272 90.6257972,14.9962917 89.8259617,13.6390606 C89.0261263,12.2818294 88.6262086,10.7243511 88.6262086,8.94437577 C88.6262086,7.1421508 89.0261263,5.58467244 89.8259617,4.22744129 C90.6257972,2.89245983 91.7588973,1.84672435 93.2252623,1.11248455 C94.6916272,0.378244747 96.3801687,0 98.335322,0 C100.290475,0 101.979017,0.378244747 103.423164,1.11248455 Z M96.1802098,6.18541409 C95.6025509,6.8974042 95.3137215,7.83189122 95.3137215,8.98887515 C95.3137215,10.1681088 95.6025509,11.1025958 96.1802098,11.8145859 C96.7578688,12.526576 97.5132689,12.8825711 98.4908455,12.8825711 C99.4239868,12.8825711 100.179387,12.526576 100.757046,11.8145859 C101.334705,11.1025958 101.623534,10.1681088 101.623534,8.98887515 C101.623534,7.83189122 101.334705,6.8974042 100.757046,6.18541409 C100.179387,5.47342398 99.4239868,5.11742892 98.4908455,5.11742892 C97.5132689,5.11742892 96.7578688,5.47342398 96.1802098,6.18541409 Z"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <h2>Order Demo</h2>
+                        <p>Fill in the form to unlock the video</p>
+                        <div class="line">
+                            <input type="text" name="name" value="" placeholder="Type your name">
+                        </div>
+                        <div class="line">
+                            <input type="tel" name="phone" value="" placeholder="Phone number">
+                        </div>
+                        <div class="line">
+                            <input type="text" name="email" value="" placeholder="E-mail">
+                        </div>
+                        <div class="line">
+                            <textarea name="text" value="" placeholder="Your message (if any)"></textarea>
+                        </div>
+                        <div class="line">
+                            <button type="submit" class="btn">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-7 video">
+                    <img src="img/pl.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="order_success">
+    <div class="overlay">
+        <div class="close"></div>
+        <div class="content container-fluid">
+            <div class="row">
+                <div class="text col-12">
+                    <h2>Watch Demo</h2>
+                    <div class="video">
+                        <svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <use xlink:href="#play_btn" x="0" y="0"></use>
+                        </svg>
+                        <iframe src="https://player.vimeo.com/video/255914041?title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                    <p>
+                        And you know what? You can start using Kandio right now!
+                        Click the button below and test all features!
+                    </p>
+                    <a href="https://app.kandio.se/#!/sign-up" class="btn btn-go">Start Using</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="fullpage">
+    <div class="section tr-none">
+        <section id="main">
+            <div class="overlay">
+                <div class="top">
+                    <div class="menu-trigger">
+                        <div class="trigger">
+                            <svg width="17px" class="burg" height="13px" viewBox="0 0 17 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="Burger-white" fill="#FFFFFF">
+                                        <path d="M0,7.85714286 L0,6.14285714 L17,6.14285714 L17,7.85714286 L0,7.85714286 Z M0,2.71428571 L0,1 L17,1 L17,2.71428571 L0,2.71428571 Z M0,13 L0,11.2857143 L17,11.2857143 L17,13 L0,13 Z"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                            <svg width="14px" class="close" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="close-icon" transform="translate(0.000000, -5.000000)" fill="#0B7FE5">
+                                        <g transform="translate(0.000000, 5.000000)">
+                                            <polygon points="13.96875 1.421875 8.390625 7 13.96875 12.578125 12.5625 13.984375 6.984375 8.40625 1.40625 13.984375 0 12.578125 5.578125 7 0 1.421875 1.40625 0.015625 6.984375 5.59375 12.5625 0.015625"></polygon>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="logo">
+                        <a href="/">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="180" height="30" viewBox="0 0 180 30">
+                                <path fill="#FFF" fill-rule="nonzero" d="M29.142 29.518H18.774l-6.85-10.754-3.26 3.597v7.194H0V.297h8.665v11.718L18.44.297h9.998L17.81 12.163l11.331 17.355zM55.766 2.855c2.296 1.855 3.444 4.487 3.444 7.825v18.838H48.657v-3.19c-.89 1.187-2.037 2.077-3.481 2.708-1.444.63-3.11.964-5 .964-3.073 0-5.442-.816-7.183-2.485-1.74-1.668-2.629-3.856-2.629-6.637 0-2.819.963-4.97 2.851-6.49 1.889-1.52 4.666-2.299 8.332-2.336h7.11v-.111c0-1.224-.445-2.151-1.296-2.819-.852-.667-2.111-1-3.74-1-1.185 0-2.518.185-4.074.518-1.555.371-3.11.89-4.665 1.558L32.216 3.04C37.103 1.038 41.769.037 46.176.037c4.11 0 7.294.964 9.59 2.818zm-9.035 19.32c.889-.519 1.518-1.26 1.926-2.187v-2.633h-4.888c-2.185 0-3.259.89-3.259 2.707 0 .927.296 1.631.852 2.15.555.483 1.37.742 2.407.742 1.074 0 2.073-.26 2.962-.778zM90.351 1.41c1.593.89 2.815 2.188 3.667 3.857.888 1.668 1.296 3.597 1.296 5.822v18.43H84.575V14.203c0-1.41-.37-2.559-1.148-3.412-.777-.853-1.777-1.298-3-1.298-1.443.037-2.628.556-3.48 1.595-.852 1.038-1.296 2.373-1.296 4.042v14.35H64.913V.446h10.775v4.487c1.037-1.595 2.333-2.818 3.851-3.671C81.057.408 82.872 0 84.91 0c2.036.037 3.888.52 5.443 1.41zm29.958.408c2.406 1.224 4.258 2.967 5.591 5.192 1.333 2.225 1.963 4.82 1.963 7.713 0 2.892-.667 5.488-2.037 7.75-1.333 2.262-3.222 3.968-5.666 5.192-2.443 1.224-5.258 1.817-8.442 1.817h-11.183V0h11.479c3.147 0 5.925.593 8.295 1.817zm-3.555 17.392c.925-1.076 1.37-2.485 1.37-4.265 0-1.78-.482-3.189-1.481-4.301-1-1.113-2.26-1.632-3.851-1.632h-3v11.792h3.296c1.518.038 2.74-.519 3.666-1.594zM132.787.482h10.776v29.036h-10.776V.482zm39.585 1.372c2.407 1.224 4.295 2.967 5.628 5.192 1.333 2.225 2 4.858 2 7.861 0 2.967-.667 5.563-2 7.825-1.333 2.262-3.221 4.005-5.628 5.228-2.407 1.224-5.258 1.855-8.48 1.855-3.221 0-6.073-.63-8.517-1.855-2.444-1.223-4.332-2.966-5.665-5.228-1.333-2.262-2-4.858-2-7.825 0-3.003.667-5.6 2-7.861 1.333-2.225 3.221-3.968 5.665-5.192C157.82.63 160.634 0 163.892 0c3.259 0 6.073.63 8.48 1.854zM160.3 10.31c-.962 1.187-1.444 2.744-1.444 4.672 0 1.966.482 3.523 1.444 4.71.963 1.187 2.222 1.78 3.851 1.78 1.556 0 2.815-.593 3.777-1.78.963-1.187 1.445-2.744 1.445-4.71 0-1.928-.482-3.485-1.445-4.672-.962-1.187-2.221-1.78-3.777-1.78-1.629 0-2.888.593-3.85 1.78z"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="/#fifth">Hur det fungerar</a></li>
+                            <li><a href="http://help.kandio.se/">FAQ</a></li>
+                            <li><a href="#">Karriär</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                        <a href="#" class="btn btn-demo">
+                            <svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <use xlink:href="#play_btn" x="0" y="0" />
+                            </svg>
+                            <span>Watch Demo</span>
+                        </a>
+                    </div>
+                    <div class="button">
+                        <a href="http://app.kandio.se/#!/sign-in" class="btn btn-login">
+                                <span class="icon">
+                                    <svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="Login-white" fill="#FFFFFF">
+                                                <path d="M13,13 L0,13 C0,12.4131915 0.0225692187,11.9618071 0.0677083333,11.6458333 C0.157986562,11.1944422 1.07203992,10.6414963 2.80989583,9.98697917 C3.08073052,9.89670094 3.40798419,9.78385484 3.79166667,9.6484375 C4.31076648,9.46788104 4.61545094,9.32682342 4.70572917,9.22526042 C4.7960074,9.12369741 4.84114583,8.82465526 4.84114583,8.328125 L4.84114583,8.125 C4.84114583,7.85416531 4.73958435,7.58897699 4.53645833,7.32942708 C4.33333232,7.06987717 4.17534779,6.61285049 4.0625,5.95833333 C4.01736089,5.73263776 3.94965323,5.55208401 3.859375,5.41666667 C3.76909677,5.28124932 3.6788199,5.0104187 3.58854167,4.60416667 C3.52083299,4.40104065 3.51519069,4.20920229 3.57161458,4.02864583 C3.62803848,3.84808938 3.65625,3.73524328 3.65625,3.69010417 C3.61111089,3.32899125 3.56597245,2.95659914 3.52083333,2.57291667 C3.47569422,2.05381685 3.70138641,1.49522868 4.19791667,0.897135417 C4.69444693,0.299042148 5.46180036,0 6.5,0 C7.53819964,0 8.30555307,0.299042148 8.80208333,0.897135417 C9.29861359,1.49522868 9.52430578,2.05381685 9.47916667,2.57291667 C9.43402755,2.95659914 9.38888911,3.32899125 9.34375,3.69010417 C9.34375,3.73524328 9.37196152,3.84808938 9.42838542,4.02864583 C9.48480931,4.20920229 9.47916701,4.40104065 9.41145833,4.60416667 C9.3211801,5.0104187 9.23090323,5.28124932 9.140625,5.41666667 C9.05034677,5.55208401 8.98263911,5.73263776 8.9375,5.95833333 C8.82465221,6.61285049 8.66666768,7.06987717 8.46354167,7.32942708 C8.26041565,7.58897699 8.15885417,7.85416531 8.15885417,8.125 C8.15885417,8.80208672 8.22656182,9.18576344 8.36197917,9.27604167 C8.40711828,9.32118078 8.96006414,9.53558836 10.0208333,9.91927083 C10.0659724,9.94184039 10.1223955,9.96440961 10.1901042,9.98697917 C11.9279601,10.6414963 12.8420134,11.1944422 12.9322917,11.6458333 L13,13 Z" id="login-icon"></path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </span>
+                            <span class="txt">Logga in</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="content container-fluid my-5">
+                    <div class="row">
+                        <div class="col-sm-2">
+
+                        </div>
+                        <div class="col-sm-8 text">
+                            <div class="card">
+                              <div class="card-body main-card">
+                                <h2>GENERAL TERMS AND CONDITIONS KANDIO</h2>
+                                <i>Version: 1.0</i><br/>
+                                <i> Date: Jan 11 2018</i>
+                                <h4><b>ARTICLE 1. DEFINITIONS</b></h4>
+                                <p>The majority of terms found in this statement of General Terms and Conditions, both in the singular and plural, shall be understood to mean the following:</p>
+                                <ol>
+                                    <li><b>1.1. Agreement</b>: any and all agreements established between Kandio and the Client, of which these General Terms and Conditions form an integral part.</li>
+                                    <li><b>1.2. Campaign</b>: any and all online advertising campaigns that the Agreement is executed for.</li>
+                                    <li><b>1.3. Client</b>: the person or entity that Kandio has entered into an Agreement with. The term Client will refer to any individual, entity, representative(s), proxy (proxies), beneficiary (beneficiaries), and heirs that are representing the interests of the Client.</li>
+                                    <li><b>1.4. Client’s Media Channels</b>: the Client’s traditional or online media channels that will be used to provide advertising services for the Client, in any and all forms.</li>
+                                    <li><b>1.5. Data Processing Agreement</b>: the agreement shall govern the processing of personal data through the Service rendered by Kandio as a data processor. The Service rendered will form an integral part of this Agreement. The Data Processing Agreement is attached to the General Terms and Conditions as Appendix I.</li>
+                                    <li><b>1.6. General Terms and Conditions</b>: the provisions outlined in this document.</li>
+                                    <li><b>1.7. Intellectual Property Rights</b>: any and all intellectual property rights and related rights, as stated but not limited to copyrights, database rights, trade name rights, domain names, model rights, brand rights, patent rights, neighbouring rights, and any rights associated with the Service provided by Kandio.</li>
+                                    <li><b>1.8. Offer</b>: any and all actionable plans provided as the Service by Kandio, or any other offer or tender submitted by Kandio to Client.</li>
+                                    <li><b>1.9. Party</b>: Kandio or the Client.</li>
+                                    <li><b>1.10. Kandio</b>: the private company Kandio [INSERT LEGAL NAME HERE] (hereinafter referred to as: “Kandio”), having its registered office at [OFFICE LOCATION]</li>
+                                    <li><b>1.11. Service</b>: the online platform, technology, and actionable services made available by Kandio to the Client and/or all other services provided by Kandio to the Client.</li>
+                                    <li><b>1.12. Website</b>: [INSERT WEBSITE HERE] and any other website of Kandio.</li>
+
+                                </ol>
+                                <h4><b>ARTICLE 2. SCOPE AND PRIORITY</b></h4>
+                                <ol>
+                                    <li><b>2.1. </b> These General Terms and Conditions are applicable to all Orders, as well as all Offers of Kandio in relation to the Services, and form an integral part of every Agreement between Kandio and the Client.</li>
+                                    <li><b>2.2. </b> Stipulations or terms and conditions of the Client that differ from or do not appear in these General Terms and Conditions shall only be binding on Kandio if and insofar as they have been expressly accepted by Kandio in writing.</li>
+                                    <li><b>2.3. </b> In case of conflict between stipulations of the Agreement, the General Terms and Conditions or any annexes thereto, the following order of priority shall apply:</li>
+                                    <li>
+                                        <ol>
+                                            <li>I. the Agreement;</li>
+                                            <li>II. any annexes;</li>
+                                            <li>III. these General Terms and Conditions;</li>
+                                            <li>IV. the Data Processing Agreement.</li>
+                                        </ol>
+                                    </li>
+                                </ol>
+                                <h4><b>ARTICLE 3. INCEPTION OF THE AGREEMENT</b></h4>
+                                <ol>
+                                    <li><b>3.1. </b> An Agreement can be entered into on the basis of an Offer provided by Kandio and the approval of such Offer by the Client in the manner stipulated by Kandio. Offers are valid for a period of thirty (30) days, unless expressly stated otherwise. Once the CLient has been assigned their own account, additional agreements can be established through the online environment, including the Website, and through additional communication between the Client and Kandio, so long as the method is authorized by Kandio. The Client must provide accurate data for any Offers that are generated in the online environment. The Agreement is concluded once the Client has approved the Offer in the online environment of Kandio.</li>
+                                    <li><b>3.2. </b>After the Agreement has been concluded, the Client must inform Kandio in a timely fashion of any and all changes required. These changes will only be binding for Kandio if Kandio agrees to them in writing. In the event that a Campaign has been started, the Client cannot request further changes in respect to the Campaign. All risk of correct or incorrect performance of an Agreement or proposed changes is solely the Clients. The Client acknowledges and accepts that any requested changes may alter expected delivery dates, especially those outlined in the base Offer. Therefore, this may not be invoked to Kandio’s detriment.</li>
+                                    <li><b>3.3. </b>Any and all changes proposed by the Client to Campaigns that lead to higher costs than the original Offer orposed will be billed to the Client’s account.</li>
+                                    <li><b>3.4. </b>Agreements may only be cancelled by the Client with written consent from Kandio. In such event, the Client will compensate Kandio for any additional expenses incurred, including the costs that are reasonably connected with the performance of the Agreement, without prejudice to Kandio’s right to claim compensation of lost profits or any other loss related to the cancelled Agreement.</li>
+                                    <li><b>3.5. </b>The Client agrees to and accepts that the provided email (for example on the moment of concluding the Agreement) is correct and is authorised and supervised by the Client. Furthermore, the Client agrees to receive all relevant information relating to the Agreement on the provided email address. The email will be classified as received the moment it arrives on the email server authorized by the Client. The Client is responsible for their own email server and its configuration. Kandio is not responsible for any emails that end up being classified as spam, unwanted, or flagged for automatic deletion.</li>
+                                    <li><b>3.6. </b>Kandio reserves the right, at any time, to refuse the Client and/or any Campaigns.</li>
+                                </ol>
+                                <h4><b>ARTICLE 4. PERFORMANCE OF THE AGREEMENT BY KANDIO</b></h4>
+                                <ol>
+                                    <li><b>4.1. </b>The provision of Services by Kandio comprises, amongst others, the performance of the Campaign by the placement of advertisements on various paid and unpaid media channels, by means of the software/artificial intelligence developed by Kandio. Kandio shall perform the Agreement to the best of its ability and with due care and expertise. In relation to the Services to be provided, Kandio’s only obligation shall be to reasonably complete its endeavors, and in no way does this guarantee results of any form. Statistics mentioned in the Services provided by Kandio are indicative only and form no commitment whatsoever. The Services, Campaigns as well as any Offers are subject to calculation, typographical, and general human errors.</li>
+                                    <li><b>4.2. </b>The Client grants Kandio prior permission to implement any changes in generated Campaigns, either automatically or manually, on behalf of the Client if this serves the purpose of the instructions given by the Client (whether or not by means of Kandio’s online environment) or the Campaign’s intended objectives. Kandio is free to adjust any Campaign settings, both automatically and manually, within a specific advertising campaign and the method of serving advertisements.</li>
+                                    <li><b>4.3. </b>Delivery times provided by Kandio are not legally binding, unless a specific deadline is expressed in writing. Kandio is only in default for deadlines that are agreed to in writing, and only if the Client serves a notice of such a deadline in writing.</li>
+                                    <li><b>4.4. </b>Missed deadlines shall not result in Kandio being in default and the Client has no entitlement to any form of compensation that they may feel entitled to because of the delay.</li>
+                                    <li><b>4.5. </b>In the performance of the Agreement, Kandio will strive not to place advertisements  provided by the Client on websites or other media channels that contain unlawful, disgraceful, obscene or pornographic content. If the Client notifies Kandio in writing that the materials provided are being displayed on channels of this type, Kandio will make reasonable endeavours to ensure removal of the same.</li>
+                                    <li><b>4.6. </b>If Kandio provides Services through the Client’s Media Channels, Kandio will endeavour not to have materials displayed on behalf of the Client that contain unlawful, disgraceful, obscene or pornographic content and that such materials do not violate any third party Intellectual Property Rights.</li>
+                                    <li><b>4.7. </b>Kandio, at its sole discretion, may hire third parties when carrying out the instructions outlined in the Agreement.</li>
+                                </ol>
+                                <h4><b>ARTICLE 5. CLIENT’S OBLIGATIONS</b></h4>
+                                <ol>
+                                    <li><b>5.1. </b>For the purpose of the performance of the Agreement, the Client must satisfy, at its own cost, the technical requirements and specifications indicated by Kandio, including, without limitation, the integration of software codes, tags and cookies on the Client’s media channels (where applicable). If Kandio provides Services through the Client’s Media Channels, the Client shall grant Kandio access to the Client’s Media Channels. Such access shall only be granted for the purpose of performing the Agreement and Kandio shall use any information it receives to this end in accordance with Article 15 of these General Terms and Conditions.</li>
+                                    <li><b>5.2. </b>The Client represents and warrants that all files provided to Kandio contain no viruses, Trojan horses, worms or any other programs that could in any way damage Kandio’s computer systems, computer programs and/or websites. Furthermore, the Client represents and warrants that the information and materials supplied, transmitted or made available through the Service comply with applicable laws and regulations, are not slanderous, libellous, racist, or otherwise objectionable, and do not breach Intellectual Property Rights, privacy rights or any other rights of third parties. The Client also represents and warrants that, when supplying the relevant information and materials, no use will be made of any equipment and/or software that may disrupt the proper functioning of the Services, Kandio’s computer systems, computer programs and/or websites, and that no data will be transmitted that disproportionately burden the infrastructure of Kandio’s computer systems, computer programs and/or websites as a result of their size and/or other properties. The Client indemnifies Kandio for all third-party claims, on any grounds whatsoever, in respect of compensation for any damages in any way arising from and/or relating to the foregoing representations and warranties.</li>
+                                    <li><b>5.3. </b>The Client agrees to work with Kandio in good time to deliver all information and materials necessary to complete the Agreement. The Client agrees to ensure that all of the information is up to date and relevant.</li>
+                                    <li><b>5.4. </b>The Client acknowledges and agrees that in the performance of the Agreement, Kandio may at its own discretion display the information and materials on the agreed media channels. In that regard, the Client cannot object when the information and materials provided are displayed on the relevant channels along with materials from direct or indirect competitors.</li>
+                                    <li><b>5.5. </b>In the event that the data necessary for the performance of the Agreement is not at Kandio's disposal, or not in time or in accordance with the stipulations of these General Terms and Conditions, Kandio shall, without prejudice to its other rights, in any event be entitled to suspend the performance of the Agreement and/or the Service, or to wholly or partially dissolve the Agreement, without any (written) notice to that end or compensation of damage to the Client being required.</li>
+                                </ol>
+                                <h4><b>ARTICLE 6. USAGE OF THE SERVICE</b></h4>
+                                <ol>
+                                    <li><b>6.1. </b>For the duration of the Agreement, Kandio grants the Client a limited license to access and use any and all functionalities made available to the Client as part of the agreed upon Service.</li>
+                                    <li><b>6.2. </b>In using the Services, the Client will observe all applicable and relevant statutory provisions and regulations, as well as the rules of conduct that are generally accepted in the sector.</li>
+                                    <li><b>6.3. </b>The Service, any parts or specific functionalities thereof may only be accessible after registration. In case registration is needed, the Client must secure access to its account using username and password against third parties. In particular, the Client must keep the password strictly confidential and is responsible for their individual account. Kandio may assume that all actions undertaken from the Client’s account after logging in its username and password are authorized and supervised by the Client. Kandio is not liable for any actions taken by a compromised account and the Client is solely liable for these actions. In the event of loss, abuse or involuntary disclosure of this information, the Client will immediately inform Kandio accordingly.</li>
+                                </ol>
+                                <h4><b>ARTICLE 7. AVAILABILITY & MAINTENANCE</b></h4>
+                                <ol>
+                                    <li><b>7.1. </b>The Client accepts that the Service only contains the functionality and other characteristics made available to the Client at the moment of delivery ("as is"), including all visible and invisible errors and defects. Kandio does not guarantee that the Service will be free from disruptions or defects at all times.</li>
+                                    <li><b>7.2. </b>Kandio reserves the right at any time to temporarily suspend the Services for maintenance, modification or improvement of the Services and Kandio’s web servers. Kandio, to the best of its ability, will strive for any such suspension to occur outside office hours and will inform the Client of the planned suspension in good time. Kandio will never be liable for any loss or damage vis-à-vis the Client due to such suspension of the Services.</li>
+                                    <li><b>7.3. </b>Kandio has the right to modify, update, or change in any way, the software of the Services from time to time in order to improve functionality and to correct errors. If a modification results in a significant change in functionality, Kandio will inform Partner by reasonable means (newsletter, email, or similar) before the change takes place. Since the Services are supplied to several Clients, individual client-specific modifications for a single Client are not possible. Kandio is not obliged to pay any compensation for damages/losses arising from the modification of the Services.</li>
+                                    <li><b>7.4. </b>If Kandio considers that there is a danger to the functioning of the Services and the API, Kandio reserves the right to modify and implement any and all changes it believes are necessary to prevent and fix any problems, and or damage.</li>
+                                </ol>
+                                <h4><b>ARTICLE 8. PRICES</b></h4>
+                                <ol>
+                                    <li><b>8.1. </b>All prices are in Euros and are exclusive of VAT, unless explicitly stated otherwise./li>
+                                    <li><b>8.2. </b>All prices are subject to programming and typographical errors. Kandio does not assume liability for any consequences that stem out of these errors.</li>
+                                    <li><b>8.3. </b>If the Agreement is a continuing performance Agreement, Kandio shall be entitled to adjust the prices in its sole discretion. Kandio shall inform the Client of any price changes at least two (2) months before they become effective. The Client may terminate the Agreement on the date of the new price change if they wish to do so.</li>
+                                    <li><b>8.4. </b>Notwithstanding the previous paragraph, Kandio is entitled (but not obligated) to adjust the prices annually, with a percentage equal to the increase of the Dutch consumer price index (CPI) as calculated by Statistics Netherlands (CPI 2006=100) with a maximum of 4%, without the possibility for the Client to terminate the Agreement.</li>
+                                </ol>
+                                <h4><b>ARTICLE 9. PAYMENT</b></h4>
+                                <ol>
+                                    <li><b>9.1. </b>Kandio shall provide invoices to the Client for the amount owed. The Client shall pay Kandio within thirty (30) days after receiving the invoice, unless Kandio has indicated a different term or when the Client has already paid the amounts via any of the available payment methods.</li>
+                                    <li><b>9.2. </b>Disputed invoices should be notified in writing as soon as reasonably possible but no later than thirty (30) calendar days after the relevant invoice date, identifying clearly the disputed part of an invoice and the reasons why it is challenged. Thirty (30) calendar days after the relevant invoice date, invoices will be deemed as correct and the Client will have no grounds for complaint.</li>
+                                    <li><b>9.3. </b>Any appeals made by the Client to offsetting or suspension are excluded.</li>
+                                    <li><b>9.4. </b>All payments made by the Client to Kandio shall be offset against any older outstanding invoices, regardless of how the Client requests the payments to be applied.</li>
+                                    <li><b>9.5. </b>In the event, it is agreed that Kandio shall provide the Services on the basis of a subsequent calculation, the then applicable prices of Kandio shall apply, unless the Parties agreed otherwise.</li>
+                                    <li><b>9.6. </b>If an amount due is not paid within the payment term, the Client shall be legally in default, with no notification of default being required. The Client is obliged to fully compensate both the judicial and extrajudicial collection costs, including but not limited to lawyer's and bailiff's fees and the costs of collection agencies, in addition to the amount that is owed and the interest due in respect thereof. Additionally, statutory interest will be due on the outstanding invoice amount, without any further notification of default being required.</li>
+                                    <li><b>9.7. </b>If the amount due is not paid in on time, Kandio reserves the right to suspend or terminate the Agreement, or any part thereof not yet performed, without notice of default or judicial intervention being required. The Client has no right to compensation such as damages caused by delay. All amounts due up to the moment of suspension become immediately payable.</li>
+                                </ol>
+                                <h4><b>ARTICLE 10. DURATION AND TERMINATION</b></h4>
+                                <ol>
+                                    <li><b>10.1. </b>The Agreement will exist for the established period of time as stated in the Agreement, or for as long as it takes to perform the Campaign. In the event that no specific date is established in the Agreement, it will be assumed that the Agreement covers a period of continued performance and will by default cover a contract period of twelve (12) months.</li>
+                                    <li><b>10.2. </b>Each Party is authorised to dissolve the Agreement, with immediate effect and without the intervention of a court being required, without any obligation to pay compensation, if the other Party requests suspension of payments, files for bankruptcy or has been declared bankrupt.</li>
+                                    <li><b>10.3. </b>Kandio is entitled, without notice of default and without any obligation to pay compensation, to terminate the Agreement at any time with immediate effect if the Client acts in breach with any of the obligations under the Agreement.</li>
+                                    <li><b>10.4. </b>Amounts invoiced or to be invoiced by Kandio for Services provided prior to termination, remain fully due and shall become immediately claimable.</li>
+                                    <li><b>10.5. </b>Immediately following the termination of the Agreement, the Client shall instantly return all materials and other goods or documentation made available under this Agreement by Kandio to the Client.</li>
+                                    <li><b>10.6. </b>Terms and conditions which by their nature are meant to remain in force after termination, shall remain fully in force, including, without limitation:</li>
+                                    <ol>
+                                        <li><b>Article 11 Liability;</b></li>
+                                        <li><b>Article 12 Force majeure;</b></li>
+                                        <li><b>Article 13 Intellectual Property Rights;</b></li>
+                                        <li><b>Article 15 Confidentiality.</b></li>
+                                    </ol>
+                                </ol>
+                                <h4><b>ARTICLE 11. LIABILITY</b></h4>
+                                <ol>
+                                    <li><b>11.1. </b>The liability of Kandio for direct damages, whatever the cause, and in particular due to a culpable failure on the part of the management staff of Kandio to comply with its obligations under the Agreement, or due to an unlawful act committed by the management staff of Kandio, or failure to comply with a guarantee obligation, is limited per damage-causing incident, whereby a series of connected incidents count as a single incident, to an amount equal the agreed upon price for the Service. If the event causing damages is associated with a specific Campaign, the above-mentioned shall only consist of the amount paid for that specific Campaign. The total sum payable for direct damages, however, can never exceed EUR 1.000 per event or EUR 5.000 per calendar year.</li>
+                                    <li><b>11.2. </b>Henceforth, direct damage is defined as reasonable expenses incurred by the Client to repair or resolve the management staff of Kandio’s shortcoming, to make the performance of Kandio conform to the Agreement, as well as reasonable costs incurred in the prevention or limitation of the damages and the reasonable costs made in determining the cause and extent thereof.</li>
+                                    <li><b>11.3. </b>Kandio is not liable for any damages other than direct damages, including but not limited to indirect damages resulting from consequential damage, loss of profit, loss of earnings, loss of savings, loss of clients, damages due to corporate stagnation and costs incurred to recover wholly or partly lost data.</li>
+                                    <li><b>11.4. </b>Kandio is also not liable for damages caused by acts or omissions of third-parties who are engaged in providing Services for the Agreement.</li>
+                                    <li><b>11.5. </b>Kandio will only be obligated to pay compensation for direct damage if the Client provides written notice within four (4) weeks of the damage occurring</li>
+                                    <li><b>11.6. </b>The liability limitations referred to in this article will however lapse if and insofar as the damage is the result of intentional misconduct or deliberate recklessness on the part of Kandio.</li>
+                                    <li><b>11.7. </b>The Client indemnifies Kandio for all third-party claims, on any grounds whatsoever, in respect of compensation for any damages in any way arising from and/or relating to the use of the Service and/or not, not properly or timely fulfilling its obligations under the Agreement and in particular to claims of or sanctions imposed by regulatory bodies.</li>
+                                </ol>
+                                <h4><b>ARTICLE 12. FORCE MAJEURE</b></h4>
+                                <ol>
+                                    <li><b>12.1. </b>Kandio is not bound to comply with any obligation to the Client if compliance is prevented by circumstances beyond Kandio’s control.</li>
+                                    <li><b>12.2. </b>In the event of such force majeure, which in any case includes failures in the internet or telecommunications infrastructure, civil unrest, mobilization, war, traffic jams, strikes, lockouts, import and export restrictions, business interruptions, stagnation in supply, fire, flood, breach of contract by suppliers on which Kandio is dependent for the performance of the Agreement, and any damage that results from an incident completely out of the control of Kandio, the performance of the Agreement may be suspended, without any liability to pay damages arising as a result.</li>
+                                    <li><b>12.3. </b>If the situation of force majeure prevents compliance for more than 10 working days, both Parties have the right to terminate the Agreement with immediate effect. Any Services already provided up until that point will be charged proportionately, but no other payment shall be due by one Party to the other.</li>
+                                </ol>
+                                <h4><b>ARTICLE 13. INTELLECTUAL PROPERTY RIGHTS</b></h4>
+                                <ol>
+                                    <li><b>13.1. </b>All Intellectual Property Rights related to the Service, its look-and-feel, the accompanying software as well as all information and images occurring within the Service and the Website are retained exclusively by Kandio, its licensors or third parties engaged on Kandio’s behalf. Nothing in the Agreement, including but not limited to, those provisions in which a license is granted in respect of the Services, shall be construed to stipulate transfer of Intellectual Property Rights.</li>
+                                    <li><b>13.2. </b>If and insofar Kandio has granted the Client a license in respect of the Kandio software, materials, and/or any applicable Service, the granted license shall be subject to the condition precedent of payment by the Client of all the amounts due under the Agreement. Said license is for the duration of the Agreement, non-exclusive, non-transferable and limited to the purposes which may be logically deduced from the Agreement, unless expressly agreed otherwise in writing.</li>
+                                    <li><b>13.3. </b>Data stored or made available by the Client or processed while using the Service is and remains the Client’s property. During the period of the Agreement where Kandio is rendering the Service, Kandio receives an unlimited license for use of this data for providing the Service, any additional and prospective services and to use this data for statistical purposes. Kandio has the right to share these statistical data (anonymous data) with third parties.</li>
+                                </ol>
+                                <h4><b>ARTICLE 14. PRIVACY</b></h4>
+                                <ol>
+                                    <li><b>14.1. </b>By using the Services, Kandio will process personal data on behalf of the Client. The Client shall in relation to such processing, at all times and in all circumstances, be regarded as a controller within the meaning of the Dutch Data Protection Act or any other applicable laws and regulations. Kandio will only act as a processor within the meaning of the Dutch Data Protection Act or any other applicable laws and regulations.</li>
+                                    <li><b>14.2. </b>Kandio shall only process personal data as instructed by the Client and in accordance with the Agreement. Any personal data processed as part of providing the Service shall be deemed to have been processed at the request of the Client, and not by Kandio themselves.</li>
+                                    <li><b>14.3. </b>More information regarding the way Kandio handles privacy, please take a look at our privacy statement here: [INSERT PRIVACY STATEMENT LINK]</li>
+                                </ol>
+                                <h4><b>ARTICLE 15. CONFIDENTIALITY</b></h4>
+                                <ol>
+                                    <li><b>15.1. </b>With respect to the information disclosed by and between the Parties while using the Service, the Parties shall accept the duty to observe strict secrecy when the information is marked as confidential or when the receiving Party knows or should reasonably suspect that the information was intended to be confidential.</li>
+                                    <li><b>15.2. </b>Kandio will not examine or provide the Client’s data while the Service is being rendered, unless this is necessary for proper service provision of the Service or in the event Kandio is obliged to do so in pursuance of a statutory duty or required by court order.</li>
+                                </ol>
+                                <h4><b>ARTICLE 16. AMENDMENTS</b></h4>
+                                <ol>
+                                    <li><b>16.1. </b>Kandio reserves the right at any time to change or supplement the Services, these General Terms and Conditions, even with respect to existing Agreements. Such changes can be applied to Agreements after a period of thirty (3) days after the Client has been notified on the Website or email. Changes of subsidiary importance can be made at any time.</li>
+                                    <li><b>16.2. </b>If the said changes have a significant negative impact on the (use of) Services, the Client may serve notice to terminate the Agreement, provided such notification to that effect is received by Kandio before the date when the change takes effect. The Client is not entitled to compensation for damages arising as a result. Use of the Service after the date of effect shall constitute the Client’s acceptance of the changed or added-to terms and conditions.</li>
+                                </ol>
+                                <h4><b>ARTICLE 17. MISCELLANEOUS</b></h4>
+                                <ol>
+                                    <li><b>17.1. </b>The Agreement will be governed solely by the laws of Sweden. Any disputes arising from and/or in connection with the Agreement shall be referred to the competent court in Stockholm.</li>
+                                    <li><b>17.2. </b>‘Written/in writing’ for the purpose of these General Terms and Conditions also refers to e-mail communication, provided the identity of the sender and their intended purpose can be clearly established. The electronic communications do, however, not include direct messaging services such as Whatsapp, Facebook Messenger, iMessage, Slack, Skype, FaceTime, etc.</li>
+                                    <li><b>17.3. </b>If any provision in the Agreement proves to be null and void, or otherwise unenforceable, this shall not affect the validity of the Agreement as a whole. The Parties, to the best of their abilities, shall use all reasonable endeavours to establish reasonable variations to the term or condition which may be necessary in order to achieve, to the greatest extent permitted by law, the same commercial effect as would have been achieved by the provision(s) in question.</li>
+                                    <li><b>17.4. </b>The reports and the version of communications or information received or stored by Kandio is deemed to be authentic, unless the Client provides convincing evidence to the contrary.</li>
+                                    <li><b>17.5. </b>The Parties immediately notify each other, in writing, of any changes in their name, postal address, e-mail address, telephone number and, on request, bank or giro account number.</li>
+                                    <li><b>17.6. </b>Kandio is entitled to transfer its rights and obligations under the Agreement to a third party who acquires the Service or the relevant business operations from it. The Client is only entitled to transfer its rights and obligations under the Agreement to a third party that acquires the service or the relevant business operations from it with the prior written consent of Kandio.</li>
+                                </ol>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="img/oval_main_screen.svg" class="main-oval">
+        </section>
+    </div>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-3 text-center text-lg-left">
+                    <a href="#" class="logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="180" height="30" viewBox="0 0 180 30">
+                            <path fill="#FFF" fill-rule="nonzero" d="M29.142 29.518H18.774l-6.85-10.754-3.26 3.597v7.194H0V.297h8.665v11.718L18.44.297h9.998L17.81 12.163l11.331 17.355zM55.766 2.855c2.296 1.855 3.444 4.487 3.444 7.825v18.838H48.657v-3.19c-.89 1.187-2.037 2.077-3.481 2.708-1.444.63-3.11.964-5 .964-3.073 0-5.442-.816-7.183-2.485-1.74-1.668-2.629-3.856-2.629-6.637 0-2.819.963-4.97 2.851-6.49 1.889-1.52 4.666-2.299 8.332-2.336h7.11v-.111c0-1.224-.445-2.151-1.296-2.819-.852-.667-2.111-1-3.74-1-1.185 0-2.518.185-4.074.518-1.555.371-3.11.89-4.665 1.558L32.216 3.04C37.103 1.038 41.769.037 46.176.037c4.11 0 7.294.964 9.59 2.818zm-9.035 19.32c.889-.519 1.518-1.26 1.926-2.187v-2.633h-4.888c-2.185 0-3.259.89-3.259 2.707 0 .927.296 1.631.852 2.15.555.483 1.37.742 2.407.742 1.074 0 2.073-.26 2.962-.778zM90.351 1.41c1.593.89 2.815 2.188 3.667 3.857.888 1.668 1.296 3.597 1.296 5.822v18.43H84.575V14.203c0-1.41-.37-2.559-1.148-3.412-.777-.853-1.777-1.298-3-1.298-1.443.037-2.628.556-3.48 1.595-.852 1.038-1.296 2.373-1.296 4.042v14.35H64.913V.446h10.775v4.487c1.037-1.595 2.333-2.818 3.851-3.671C81.057.408 82.872 0 84.91 0c2.036.037 3.888.52 5.443 1.41zm29.958.408c2.406 1.224 4.258 2.967 5.591 5.192 1.333 2.225 1.963 4.82 1.963 7.713 0 2.892-.667 5.488-2.037 7.75-1.333 2.262-3.222 3.968-5.666 5.192-2.443 1.224-5.258 1.817-8.442 1.817h-11.183V0h11.479c3.147 0 5.925.593 8.295 1.817zm-3.555 17.392c.925-1.076 1.37-2.485 1.37-4.265 0-1.78-.482-3.189-1.481-4.301-1-1.113-2.26-1.632-3.851-1.632h-3v11.792h3.296c1.518.038 2.74-.519 3.666-1.594zM132.787.482h10.776v29.036h-10.776V.482zm39.585 1.372c2.407 1.224 4.295 2.967 5.628 5.192 1.333 2.225 2 4.858 2 7.861 0 2.967-.667 5.563-2 7.825-1.333 2.262-3.221 4.005-5.628 5.228-2.407 1.224-5.258 1.855-8.48 1.855-3.221 0-6.073-.63-8.517-1.855-2.444-1.223-4.332-2.966-5.665-5.228-1.333-2.262-2-4.858-2-7.825 0-3.003.667-5.6 2-7.861 1.333-2.225 3.221-3.968 5.665-5.192C157.82.63 160.634 0 163.892 0c3.259 0 6.073.63 8.48 1.854zM160.3 10.31c-.962 1.187-1.444 2.744-1.444 4.672 0 1.966.482 3.523 1.444 4.71.963 1.187 2.222 1.78 3.851 1.78 1.556 0 2.815-.593 3.777-1.78.963-1.187 1.445-2.744 1.445-4.71 0-1.928-.482-3.485-1.445-4.672-.962-1.187-2.221-1.78-3.777-1.78-1.629 0-2.888.593-3.85 1.78z"/>
+                        </svg>
+                    </a>
+                    <p class="small">
+                        © KANDIO - 2017. All rights reserved.
+                    </p>
+                    <p class="small">
+                        <a href="/privacy.html">Privacy Policy</a>
+                        <span>|</span>
+                        <a href="#">Terms of use</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <h3>Kontakt</h3>
+                    <p>Kungsgatan 26,<br> 11135 Stockholm,<br> Sweden</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <h3>COMPANY</h3>
+                    <p><a href="mailto:info@kand.io">info@kand.io</a></p>
+                    <p><a href="tel:+46 (0) 111 111 11">+46 (0) 111 111 11</a></p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <h3>INFORMATION</h3>
+                    <ul>
+                        <li>
+                            <a href="/#fifth">Hur fungerar det?</a>
+                        </li>
+                        <li>
+                            <a href="http://help.kandio.se/">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#">Kariär</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12" style="position: relative;">
+                    <h3><span class="social-parent"> SOCIAL<span class="notify">
+                                <img src="img/notification-1@2x.png">
+                            </span></span></h3>
+                    <div class="soc">
+                        <a href="#"><img src="img/facebook-icon.svg"></a>
+                        <a href="#"><img src="img/twitter-icon.svg"></a>
+                        <a href="#"><img src="img/linked-in-icon.svg"></a>
+                    </div>
+                    <svg width="32px" height="32px" class="sc-top" onClick="toTop();" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Up-button">
+                                <circle id="Oval-2" fill="#364961" cx="16" cy="16" r="16"></circle>
+                                <path d="M14.5,17.4289322 L14.5,9 L17.5,9 L17.5,17.5355339 L20.0355339,15 L22.1066017,17.0710678 L16.0710678,23.1066017 L16.0533009,23.0888348 L16.0355339,23.1066017 L10,17.0710678 L12.0710678,15 L14.5,17.4289322 Z" id="Combined-Shape" fill="#FFFFFF" transform="translate(16.053301, 16.053301) rotate(-180.000000) translate(-16.053301, -16.053301) "></path>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+</div>
+<script>
+window.intercomSettings = {
+app_id: "tzqxa7nv"
+};
+</script>
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/tzqxa7nv';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+</body>
+</html>
