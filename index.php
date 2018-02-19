@@ -450,6 +450,9 @@
 <p class="small">
 	                        </p>
 	                        <p class="small">
+                                <a href="/privacy.html">Privacy Policy</a>
+                                <span>|</span>
+                                <a href="/terms.html">Terms of use</a>
 	                        </p>
 	                    </div>
 	                    <div class="col-md-3 col-sm-6 col-12">
