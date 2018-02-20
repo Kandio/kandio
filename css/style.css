@@ -1753,6 +1753,9 @@ a:hover {
   #order_from .logo {
     display: none;
   }
+  .main-title {
+      font-size: 50px!important;
+  }
 }
 @media (max-height: 690px) and (min-width: 920px) {
   #order_success .overlay {
