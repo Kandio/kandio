@@ -1648,6 +1648,9 @@ a:hover {
   .section section#order .img-wrap img {
     max-width: 100%;
   }
+  #main .top .logo {
+    padding-left: 1.5rem;
+  }
 }
 @media (max-width: 1300px) and (min-width: 920px) and (max-width: 1100px) {
   .section section#hiw .content .inside .title {
