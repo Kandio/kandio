@@ -1392,6 +1392,11 @@ footer .sc-top {
 #fp-nav ul li {
   margin-bottom: 15px;
 }
+
+#fp-nav ul li:last-child {
+  display: none;
+}
+
 #fp-nav ul li span {
   width: 15px!important;
   height: 15px!important;
