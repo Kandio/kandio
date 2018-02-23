@@ -305,7 +305,7 @@
                                         </div>
                                         <div  class="line"></div>
                                         <div class="text">
-                                            Välj bransch, erfarenhet och färdigheter
+                                            Välj bransch, erfarenhet och färdigheter<br>&nbsp;
                                         </div>
                                     </div>
                                 </div>

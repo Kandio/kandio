@@ -1390,7 +1390,7 @@ footer .sc-top {
   margin: 0;
 }
 #fp-nav ul li {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 #fp-nav ul li:last-child {
@@ -1398,8 +1398,8 @@ footer .sc-top {
 }
 
 #fp-nav ul li span {
-  width: 15px!important;
-  height: 15px!important;
+  width: 8px!important;
+  height: 8px!important;
   background: none!important;
   border: 2px solid #fff!important;
   border-radius: 50%;
