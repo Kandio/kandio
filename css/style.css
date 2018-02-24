@@ -2211,6 +2211,9 @@ a:hover {
   #hiw {
     background-image: linear-gradient(to bottom, #75e36f, #2f9917);
   }
+  #fullpage .hiw-section, #hiw {
+    height: 100% !important;
+  }
   #hiw h2 {
     margin-top: 0!important;
     margin-bottom: 23px!important;

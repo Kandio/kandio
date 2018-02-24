@@ -281,7 +281,7 @@
             <img src="img/oval-feature-3.svg" class="main-oval">
         </section>
     </div>
-    <div class="section">
+    <div class="section hiw-section">
         <section id="hiw">
             <div class="overlay">
                 <div class="content container-fluid">
@@ -388,7 +388,6 @@
                             <div class="tabs">
                                 <div class="tab active"><img src="img/facebook_ad_example@2x.png"></div>
                                 <div class="tab"><img src="img/instagram_example_ad@2x.png"></div>
-                                <div class="tab"><img src="img/twitter_example_ad@2x.png"></div>
                                 <div class="tab"><img src="img/google_example_ad@2x.png"></div>
                             </div>
                         </div>
