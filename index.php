@@ -455,7 +455,7 @@
                     <div class="col-md-3 col-sm-6 col-12">
                         <h3>KANDIO AB</h3>
                         <p>Kungsgatan 26, Stockholm</p>
-                        <p><a href="mailto:hej@kandio.se">hej@kandio.se</a></p>
+                        <p><a href="mailto:info@kandio.se">info@kandio.se</a></p>
                         <p>073-532 81 52</p>
                     </div>
                     <div class="col-md-3 col-sm-6 col-12">
