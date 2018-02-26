@@ -158,14 +158,14 @@ br {
 #main .top {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 30px;
+  padding-top: 40px;
   flex: 0 0 auto;
 }
 #main .top .logo {
   flex: 0 0 auto;
   display: flex;
   padding-left: 4.25rem;
-  /* padding-top: 10px; */
+  padding-top: 5px;
 }
 #main .top .menu {
   display: flex;
@@ -1393,10 +1393,6 @@ footer .sc-top {
   margin-bottom: 5px;
 }
 
-#fp-nav ul li:last-child {
-  display: none;
-}
-
 #fp-nav ul li span {
   width: 8px!important;
   height: 8px!important;
@@ -2211,9 +2207,9 @@ a:hover {
   #hiw {
     background-image: linear-gradient(to bottom, #75e36f, #2f9917);
   }
-  #fullpage .hiw-section, #hiw {
+  /* #fullpage .hiw-section, #hiw {
     height: 100% !important;
-  }
+  } */
   #hiw h2 {
     margin-top: 0!important;
     margin-bottom: 23px!important;
