@@ -1647,6 +1647,10 @@ a:hover {
   #main .top .logo {
     padding-left: 1.5rem;
   }
+
+  #main .top .button {
+    padding-right: 1.5rem;
+  }
 }
 @media (max-width: 1300px) and (min-width: 920px) and (max-width: 1100px) {
   .section section#hiw .content .inside .title {
@@ -1669,6 +1673,10 @@ a:hover {
 {
     #main .top .logo {
       padding-left: 4.25rem;
+    }
+
+    #main .top .button {
+      padding-right: 4.25rem;
     }
 }
 .modal-open {
