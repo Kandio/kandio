@@ -134,7 +134,7 @@
                             <svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <use xlink:href="#play_btn" x="0" y="0" />
                             </svg>
-                            <span>Watch Demo</span>
+                            <span>Visa Demo</span>
                         </a>
                     </div>
                     <div class="button">
