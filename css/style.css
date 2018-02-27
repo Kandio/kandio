@@ -1665,6 +1665,12 @@ a:hover {
     margin: 20px auto;
   }
 }
+@media (min-width: 1200px)
+{
+    #main .top .logo {
+      padding-left: 4.25rem;
+    }
+}
 .modal-open {
   overflow: hidden!important;
 }
