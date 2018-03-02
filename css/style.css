@@ -203,6 +203,7 @@ br {
   display: flex;
   flex: 0 0 auto;
   padding-right: 34px;
+  padding-top: 5px;
 }
 #main .content {
   flex: 1 1 auto;
