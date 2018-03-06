@@ -5,12 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kandio</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/jquery.fullPage.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/app.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Source+Sans+Pro:400,600,700" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="js/jquery.fullPage.js"></script>
 
     <link rel="shortcut icon" href="/img/favicons/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
@@ -24,7 +20,6 @@
     <meta name="theme-color" content="#ffffff">
 
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>-->
-    <script src="js/app.js"></script>
     <script src='https://cdn.useproof.com/proof.js?acc=OPaidos7rwbu5plFIh45paodw0z1' async></script>
 </head>
 <body>
@@ -504,6 +499,9 @@
     </div>
 
 </div>
+
+<script src="js/app.min.js"></script>
+
 <script>
   window.intercomSettings = {
     app_id: "tzqxa7nv"

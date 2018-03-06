@@ -1,0 +1,24 @@
+{
+  "name": "app-compiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "weirdguy",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-typescript": "^3.2.3",
+    "gulp-uglify": "^3.0.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.23.6"
+  }
+}
