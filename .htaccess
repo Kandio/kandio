@@ -4,6 +4,9 @@
   </filesMatch>
 </ifModule>
 
+ExpiresActiove ON
+ExpiresDefault "access plus 10 seconds"
+
 <ifModule mod_expires.c>
   ExpiresActive On
   ExpiresDefault "access plus 1 seconds"
