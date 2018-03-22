@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kandio</title>
-    <link>localhost:1313/</link>
+    <link>kandio.se:8099/</link>
     <description>Recent content on Kandio</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 14 Mar 2018 12:00:00 +0100</lastBuildDate>
     
-	<atom:link href="localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="kandio.se:8099/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Test content for blog</title>
-      <link>localhost:1313/newsroom/test/</link>
+      <link>kandio.se:8099/newsroom/test/</link>
       <pubDate>Wed, 14 Mar 2018 12:00:00 +0100</pubDate>
       
-      <guid>localhost:1313/newsroom/test/</guid>
+      <guid>kandio.se:8099/newsroom/test/</guid>
       <description>Note: This article is the second in a six-part series about getting started with Albacross. There are links to all of the articles at the bottom of the page.
 Account-based marketing has become a lot more sophisticated in the last few years.
 New technology has enabled marketers to target leads in new ways. At Albacross, we’re incredibly proud of our ad platform, which gives you the power to directly target your leads with personalised ads.</description>
@@ -23,19 +23,19 @@ New technology has enabled marketers to target leads in new ways. At Albacross, 
     
     <item>
       <title>Kandio | Privacy Policy</title>
-      <link>localhost:1313/privacy/</link>
+      <link>kandio.se:8099/privacy/</link>
       <pubDate>Mon, 17 Apr 2017 11:01:21 -0400</pubDate>
       
-      <guid>localhost:1313/privacy/</guid>
+      <guid>kandio.se:8099/privacy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kandio | Terms of Service</title>
-      <link>localhost:1313/terms/</link>
+      <link>kandio.se:8099/terms/</link>
       <pubDate>Mon, 17 Apr 2017 11:01:21 -0400</pubDate>
       
-      <guid>localhost:1313/terms/</guid>
+      <guid>kandio.se:8099/terms/</guid>
       <description></description>
     </item>
     
