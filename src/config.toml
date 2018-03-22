@@ -1,0 +1,26 @@
+baseurl = "localhost:1313"
+DefaultContentLanguage = "en"
+title = "Kandio"
+theme = "kandio"
+publishDir = "public_html"
+
+[mediaTypes]
+  [mediaTypes."application/x-php"]
+  suffix = "php"
+
+[outputFormats]
+    [outputFormats.PHP]
+        mediaType = "application/x-php"
+        isHTML = true
+        baseName = "index"
+
+[params]
+    author = ""
+    description = ""
+
+
+[Languages]
+[Languages.en]
+weight = 1
+[Languages.sv]
+weight = 2
