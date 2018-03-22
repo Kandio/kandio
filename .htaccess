@@ -1,0 +1,13 @@
+DirectorySlash Off
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.*)/$ $1 [L,R=301] # <- for test, for prod use [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.*)$ %{REQUEST_URI}/index.html [L] # <- for test, for prod use [L,R=301]
+
+</IfModule>
