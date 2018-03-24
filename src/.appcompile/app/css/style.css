@@ -2707,11 +2707,11 @@ article.post {
     margin: 0 !important;
 }
 
-.post-title a, .post-content .more {
+.post-title a, .post-content .more, .go-back-link {
     color: #268fd5;
 }
 
-.post-title a:hover, .post-content .more:hover {
+.post-title a:hover, .post-content .more:hover, .go-back-link:hover {
     color: #227ebb;
 }
 
