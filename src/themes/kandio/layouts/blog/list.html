@@ -2,41 +2,30 @@
 <html lang="en">
 <head>
     {{ partial "head.html" .}}
-    <meta property="og:title" content="{{ with .Title }}{{ . | markdownify }}{{ end }}">
-    <meta property="og:image" content="/images/newsroom/cover/{{.Params.image}}">
-    <meta property="og:site_name" content="Albacross.com">
-    <meta property="og:description" content="{{ .Content }}">
     <style media="screen">
         #fullpage .section {
             height: auto;
         }
         .main-card p {
             color: #343a40 !important;
-            margin: 0 0 20px !important;
         }
-        h2 {
-            font-size: 1.65rem;
-            padding-top: 10px;
+        #fullpage #main {
+            background: white;
         }
-        .post-content {
-            margin-top: 20px;
+        #main .overlay {
+            max-width: max-content;
         }
-
-        .post-content img {
-            width: 100%;
-            margin: 20px 0;
+        #main .main-oval {
+            display: none;
         }
-        .post-content a {
-            color: #268fd5;
+        #main .overlay .top {
+            background-image: radial-gradient(circle at 100% 50%,#38a9e1,#0869c2);
+            padding-bottom: 40px;
         }
-        .post-content a:hover {
-            color: #227ebb;
-        }
-        .img-thumb {
-            margin: 20px 0;
+        #main .overlay .card {
+            border: none;
         }
         ol {list-style: none;}
-        br {display: block;}
     </style>
 </head>
 <body>
@@ -132,7 +121,41 @@
                             </svg>
                         </div>
                     </div>
-                    {{ partial "nav.html" .}}
+                    <div class="logo">
+                        <a href="/">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="180" height="30" viewBox="0 0 180 30">
+                                <path fill="#FFF" fill-rule="nonzero" d="M29.142 29.518H18.774l-6.85-10.754-3.26 3.597v7.194H0V.297h8.665v11.718L18.44.297h9.998L17.81 12.163l11.331 17.355zM55.766 2.855c2.296 1.855 3.444 4.487 3.444 7.825v18.838H48.657v-3.19c-.89 1.187-2.037 2.077-3.481 2.708-1.444.63-3.11.964-5 .964-3.073 0-5.442-.816-7.183-2.485-1.74-1.668-2.629-3.856-2.629-6.637 0-2.819.963-4.97 2.851-6.49 1.889-1.52 4.666-2.299 8.332-2.336h7.11v-.111c0-1.224-.445-2.151-1.296-2.819-.852-.667-2.111-1-3.74-1-1.185 0-2.518.185-4.074.518-1.555.371-3.11.89-4.665 1.558L32.216 3.04C37.103 1.038 41.769.037 46.176.037c4.11 0 7.294.964 9.59 2.818zm-9.035 19.32c.889-.519 1.518-1.26 1.926-2.187v-2.633h-4.888c-2.185 0-3.259.89-3.259 2.707 0 .927.296 1.631.852 2.15.555.483 1.37.742 2.407.742 1.074 0 2.073-.26 2.962-.778zM90.351 1.41c1.593.89 2.815 2.188 3.667 3.857.888 1.668 1.296 3.597 1.296 5.822v18.43H84.575V14.203c0-1.41-.37-2.559-1.148-3.412-.777-.853-1.777-1.298-3-1.298-1.443.037-2.628.556-3.48 1.595-.852 1.038-1.296 2.373-1.296 4.042v14.35H64.913V.446h10.775v4.487c1.037-1.595 2.333-2.818 3.851-3.671C81.057.408 82.872 0 84.91 0c2.036.037 3.888.52 5.443 1.41zm29.958.408c2.406 1.224 4.258 2.967 5.591 5.192 1.333 2.225 1.963 4.82 1.963 7.713 0 2.892-.667 5.488-2.037 7.75-1.333 2.262-3.222 3.968-5.666 5.192-2.443 1.224-5.258 1.817-8.442 1.817h-11.183V0h11.479c3.147 0 5.925.593 8.295 1.817zm-3.555 17.392c.925-1.076 1.37-2.485 1.37-4.265 0-1.78-.482-3.189-1.481-4.301-1-1.113-2.26-1.632-3.851-1.632h-3v11.792h3.296c1.518.038 2.74-.519 3.666-1.594zM132.787.482h10.776v29.036h-10.776V.482zm39.585 1.372c2.407 1.224 4.295 2.967 5.628 5.192 1.333 2.225 2 4.858 2 7.861 0 2.967-.667 5.563-2 7.825-1.333 2.262-3.221 4.005-5.628 5.228-2.407 1.224-5.258 1.855-8.48 1.855-3.221 0-6.073-.63-8.517-1.855-2.444-1.223-4.332-2.966-5.665-5.228-1.333-2.262-2-4.858-2-7.825 0-3.003.667-5.6 2-7.861 1.333-2.225 3.221-3.968 5.665-5.192C157.82.63 160.634 0 163.892 0c3.259 0 6.073.63 8.48 1.854zM160.3 10.31c-.962 1.187-1.444 2.744-1.444 4.672 0 1.966.482 3.523 1.444 4.71.963 1.187 2.222 1.78 3.851 1.78 1.556 0 2.815-.593 3.777-1.78.963-1.187 1.445-2.744 1.445-4.71 0-1.928-.482-3.485-1.445-4.672-.962-1.187-2.221-1.78-3.777-1.78-1.629 0-2.888.593-3.85 1.78z"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="/#fifth">Hur det fungerar</a></li>
+                            <li><a href="http://help.kandio.se/">FAQ</a></li>
+                            <li><a href="#">Karriär</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                        <a href="#" class="btn btn-demo">
+                            <svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <use xlink:href="#play_btn" x="0" y="0" />
+                            </svg>
+                            <span>Visa Demo</span>
+                        </a>
+                    </div>
+                    <div class="button">
+                        <a href="http://app.kandio.se/#!/sign-in" class="btn btn-login">
+                                <span class="icon">
+                                    <svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="Login-white" fill="#FFFFFF">
+                                                <path d="M13,13 L0,13 C0,12.4131915 0.0225692187,11.9618071 0.0677083333,11.6458333 C0.157986562,11.1944422 1.07203992,10.6414963 2.80989583,9.98697917 C3.08073052,9.89670094 3.40798419,9.78385484 3.79166667,9.6484375 C4.31076648,9.46788104 4.61545094,9.32682342 4.70572917,9.22526042 C4.7960074,9.12369741 4.84114583,8.82465526 4.84114583,8.328125 L4.84114583,8.125 C4.84114583,7.85416531 4.73958435,7.58897699 4.53645833,7.32942708 C4.33333232,7.06987717 4.17534779,6.61285049 4.0625,5.95833333 C4.01736089,5.73263776 3.94965323,5.55208401 3.859375,5.41666667 C3.76909677,5.28124932 3.6788199,5.0104187 3.58854167,4.60416667 C3.52083299,4.40104065 3.51519069,4.20920229 3.57161458,4.02864583 C3.62803848,3.84808938 3.65625,3.73524328 3.65625,3.69010417 C3.61111089,3.32899125 3.56597245,2.95659914 3.52083333,2.57291667 C3.47569422,2.05381685 3.70138641,1.49522868 4.19791667,0.897135417 C4.69444693,0.299042148 5.46180036,0 6.5,0 C7.53819964,0 8.30555307,0.299042148 8.80208333,0.897135417 C9.29861359,1.49522868 9.52430578,2.05381685 9.47916667,2.57291667 C9.43402755,2.95659914 9.38888911,3.32899125 9.34375,3.69010417 C9.34375,3.73524328 9.37196152,3.84808938 9.42838542,4.02864583 C9.48480931,4.20920229 9.47916701,4.40104065 9.41145833,4.60416667 C9.3211801,5.0104187 9.23090323,5.28124932 9.140625,5.41666667 C9.05034677,5.55208401 8.98263911,5.73263776 8.9375,5.95833333 C8.82465221,6.61285049 8.66666768,7.06987717 8.46354167,7.32942708 C8.26041565,7.58897699 8.15885417,7.85416531 8.15885417,8.125 C8.15885417,8.80208672 8.22656182,9.18576344 8.36197917,9.27604167 C8.40711828,9.32118078 8.96006414,9.53558836 10.0208333,9.91927083 C10.0659724,9.94184039 10.1223955,9.96440961 10.1901042,9.98697917 C11.9279601,10.6414963 12.8420134,11.1944422 12.9322917,11.6458333 L13,13 Z" id="login-icon"></path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </span>
+                            <span class="txt">Logga in</span>
+                        </a>
+                    </div>
                 </div>
                 <div class="content container-fluid my-5">
                     <div class="row">
@@ -142,15 +165,45 @@
                         <div class="col-sm-8 text">
                             <div class="card">
                               <div class="card-body main-card">
-                                <a href="/newsroom/" class="go-back-link">< Back</a>
-                                <h2>{{ with .Title }}{{ . | markdownify }}{{ end }}</h2>
-                                <i>{{ .Date.Format "January 2, 2006" }}</i>
-                                <div class="img-thumb">
-                                    <img src="/images/newsroom/cover/{{.Params.image}}" alt="Newsroom Cover Images" style="width:100%;">
-                                </div>
-                                <div class="post-content">
-                                    {{ .Content }}
-                                </div>
+                                  {{ range (.Paginator 5).Pages }}
+                                  <article class="post">
+
+                                    <div class="row">
+
+                                      <div class="col-xs-12 col-md-4 col-md-offset-1">
+                                        <div class="img-thumb">
+                                          <img src="/images/newsroom/thumbnail/{{.Params.image}}" alt="Newroom Thumbnail Images" style="width: 100%;">
+                                        </div>
+                                      </div>
+                                      <div class="col-xs-12 col-md-6 post-body">
+                                        <p class="post-time">{{ .Date.Format "January 2, 2006" }}</p>
+                                        <h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+
+                                        <div class="post-content">
+                                            {{ if .Params.summary }}
+                                                <p>{{ .Params.summary | markdownify }}</p>
+                                            {{ else }}
+                                                <p>{{ .Summary }}</p>
+                                            {{ end}}
+                                          <a href="{{.RelPermalink}}" class="more">Read more <!-- <i class="ion ion-arrow-right-c"></i>--></a>
+                                        </div>
+                                      </div>
+
+                                    </div>
+
+                                  </article>
+
+                                  {{ end }}
+
+                                  <div class="row">
+
+                                      <div class="col-xs-12 col-md-11 pagination-container">
+
+                                          {{ template "_internal/pagination.html" . }}
+
+                                      </div>
+
+                                  </div>
                               </div>
                             </div>
                         </div>

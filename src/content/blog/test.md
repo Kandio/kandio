@@ -2,7 +2,7 @@
 title = "Test content for blog"
 description = "Try to design your own test content"
 date = "2018-03-14T12:00:00+01:00"
-type = "newsroom"
+type = "blog"
 aliases = ["/test/"]
 image = "5-steps-to-launch-your-first-albacross-abm-campaign.jpg"
 summary = "This content is totaly for testing purpose"
