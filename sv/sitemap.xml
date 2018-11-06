@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>kandio.se:8099/sv/categories/</loc>
+    <loc>localhost:1313/sv/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -18,7 +18,7 @@
   </url>
   
   <url>
-    <loc>kandio.se:8099/sv/</loc>
+    <loc>localhost:1313/sv/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -33,7 +33,7 @@
   </url>
   
   <url>
-    <loc>kandio.se:8099/sv/tags/</loc>
+    <loc>localhost:1313/sv/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
